@@ -1,7 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics.Contracts;
+using UnityEditor.SearchService;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class QuizManager : MonoBehaviour
@@ -10,14 +12,41 @@ public class QuizManager : MonoBehaviour
     public GameObject[] option;
     public int currentQuestion;
 
+    public GameObject Quizpanel;
+    public GameObject GOPanel;
+
     public UnityEngine.UI.Text QuestionTxt;
+    public Text ScoreTxt;
+
+    int totalQuestions = 0;
+    public int score;
 
     private void Start()
     {
+        totalQuestions = QnA.Count;
+        GOPanel.SetActive(false);
         generateQuestion();
     }
 
+    public void retry()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+    public void GameOver()
+    {
+        Quizpanel.SetActive(true);
+        GOPanel.SetActive(false);
+        ScoreTxt.text = score + "/" + totalQuestions;
+    }
+
     public void correct()
+    {
+        score += 1;
+        QnA.RemoveAt(currentQuestion);
+        generateQuestion();
+    }
+
+    public void wrong()
     {
         QnA.RemoveAt(currentQuestion);
         generateQuestion();
@@ -39,11 +68,18 @@ public class QuizManager : MonoBehaviour
 
     void generateQuestion()
     {
-        currentQuestion = Random.Range(0, QnA.Count);
+        if (QnA.Count > 0)
+        {
+            currentQuestion = Random.Range(0, QnA.Count);
 
-        QuestionTxt.text = QnA[currentQuestion].Question;
-        SetAnswer();
-
+            QuestionTxt.text = QnA[currentQuestion].Question;
+            SetAnswer();
+        }
+        else
+        {
+            Debug.Log("Out of Question");
+            GameOver();
+        }
        
     }
 
