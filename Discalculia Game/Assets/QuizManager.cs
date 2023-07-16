@@ -32,10 +32,11 @@ public class QuizManager : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
+
     public void GameOver()
     {
-        Quizpanel.SetActive(true);
-        GOPanel.SetActive(false);
+        Quizpanel.SetActive(false);
+        GOPanel.SetActive(true);
         ScoreTxt.text = score + "/" + totalQuestions;
     }
 
