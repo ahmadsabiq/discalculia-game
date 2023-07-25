@@ -6,9 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Level 1/Soal 1/Sepatu & Sendal.unity
+    path: Assets/Sepatu/Level 1/Soal 1/Sepatu & Sendal.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Level 3/Scene 1.unity
+    path: Assets/Sepatu/Level 1/Start Screen/StartScreen.unity
+    guid: 52d480d6b0cfe934ca33585dab057e82
+  - enabled: 1
+    path: Assets/Sepatu/Level 3/Level3.unity
     guid: e604012ae00f96f41a65dcc781f1a36c
   m_configObjects: {}

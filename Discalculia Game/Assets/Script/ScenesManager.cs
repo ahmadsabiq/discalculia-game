@@ -14,7 +14,7 @@ public class ScenesManager : MonoBehaviour
 
     public enum Scene
     {
-        StartScene,
+        StartScreen,
         Level3
     }
 
@@ -35,6 +35,6 @@ public class ScenesManager : MonoBehaviour
 
     public void LoadMainMenu()
     {
-        SceneManager.LoadScene(Scene.StartScene.ToString());
+        SceneManager.LoadScene(Scene.StartScreen.ToString());
     }
 }
