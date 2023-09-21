@@ -1103,6 +1103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a92057e2f4d53db41afd23a6f00b8c85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sm: {fileID: 1071424007}
 --- !u!114 &1071424007
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1118,6 +1119,7 @@ MonoBehaviour:
   src: {fileID: 346538123}
   sfx1: {fileID: 8300000, guid: a50dbe9cf1b33a94f9d017d4628f309d, type: 3}
   sfx2: {fileID: 8300000, guid: 3332fa2b2fb8228439f608c9c08a6680, type: 3}
+  SoundChg: 0
 --- !u!1 &1207686594
 GameObject:
   m_ObjectHideFlags: 0
@@ -1397,18 +1399,6 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 1.2
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1071424007}
-        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
-        m_MethodName: Button2
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1410402207

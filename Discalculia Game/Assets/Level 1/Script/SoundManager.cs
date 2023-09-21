@@ -15,7 +15,15 @@ public class SoundManager : MonoBehaviour
 
     public void Button2()
     {
+        SoundChg = true;
         src.clip = sfx2;
         src.Play();
     }
+
+    public void Update()
+    {
+        SoundChg = src.isPlaying;
+    }
+
+    public bool SoundChg;
 }
