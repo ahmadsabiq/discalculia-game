@@ -1,10 +1,10 @@
- using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class Countdown : MonoBehaviour
+public class Timer : MonoBehaviour
 {
     public int countDownTimer;
     public TMP_Text countDownText;
@@ -25,7 +25,7 @@ public class Countdown : MonoBehaviour
         }
         countDownText.text = "Mulai!";
         yield return new WaitForSeconds(0f);
-        countDownText.gameObject.SetActive(false);
-        timeImage.gameObject.SetActive(false);
+        countDownText.gameObject.SetActive(true);
+        timeImage.gameObject.SetActive(true);
     }
 }
