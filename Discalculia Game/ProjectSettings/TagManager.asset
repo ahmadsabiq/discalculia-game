@@ -3,7 +3,15 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
+<<<<<<< Updated upstream
   tags: []
+=======
+  tags:
+  - Start
+  - falseAns
+  - rightAns
+  - Repetition
+>>>>>>> Stashed changes
   layers:
   - Default
   - TransparentFX
@@ -40,4 +48,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Object1
+    uniqueID: 4218571885
+    locked: 0
+  - name: Object2
+    uniqueID: 3146233009
+    locked: 0
+  - name: Object3
+    uniqueID: 1315792307
     locked: 0
