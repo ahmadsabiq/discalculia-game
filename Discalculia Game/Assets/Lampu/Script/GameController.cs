@@ -11,6 +11,7 @@ public class GameController : MonoBehaviour
     // Button Option
     public LampController[] sequence;
     private List<LampController> Answers = new();
+    public List<SwitchSprite> SwitchSprites = new();
 
     // Panel
     public GameObject Quizpanel; // Soal Lampu
@@ -47,8 +48,10 @@ public class GameController : MonoBehaviour
         questionText.text = "Perhatikan urutan lampu yang menyala!";
         buttonRepeat.interactable = false;
         buttonJawab.interactable = false;
+        yield return new WaitForSeconds(1f);
         for (int i = 0; i < 2; i++)
         {
+            yield return new WaitForSeconds(1f);
             foreach (var lamp in sequence)
             {
                 lamp.TurnOn();
@@ -87,7 +90,6 @@ public class GameController : MonoBehaviour
         if (answerTrue == false)
         {
             StartCoroutine(RepeatQuestion());
-            CheckAnswer();
         }
         else
         {
@@ -106,7 +108,12 @@ public class GameController : MonoBehaviour
     public IEnumerator RepeatQuestion()
     {
         StopCoroutine(QuestionLamps());
+        Answers.Clear();
         ResetLamp();
+        foreach(var Switch in SwitchSprites)
+        {
+            Switch.ButtonOff();
+        }
         repeatSfx.Play();   
         yield return new WaitForSeconds(1f);    
         Repeat();

@@ -16,19 +16,20 @@ public class LampController : MonoBehaviour
     public void Switch()
     {
         TurnOn();
-        lampActive = true;
     }
 
 
     // Start is called before the first frame update
     public void TurnOn()
     {
-        img.sprite = colorLamp;    
+        img.sprite = colorLamp;
+        lampActive = true;
     }
 
     public void TurnOff() 
     { 
         img.sprite = defaultLamp;
+        lampActive = false;
     }
 
     // Update is called once per frame
