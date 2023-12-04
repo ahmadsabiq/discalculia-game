@@ -4,52 +4,5 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes:
-  - enabled: 1
-<<<<<<< Updated upstream
-    path: Assets/Level 1/Soal 1/Sepatu & Sendal.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-=======
-    path: Assets/(ALL) First Page Level/Sepatu New Scene.unity
-    guid: 202f8084e546fe942b38c61c7341b0d7
-  - enabled: 1
-    path: Assets/Sepatu/SepatuStart.unity
-    guid: 52d480d6b0cfe934ca33585dab057e82
-  - enabled: 1
-    path: Assets/Sepatu/Level 1/Soal 1/1.1.unity
-    guid: 4aafd97e6d8cc20449b353ec1aa570a5
-  - enabled: 0
-    path: Assets/Level 1/Soal 1/1.2.unity
-    guid: 7bb0dc3a0270e204d9ad7849e3a16754
-  - enabled: 1
-    path: Assets/Sepatu/Level 1/Soal 1/1.3.unity
-    guid: dcdd8f78330f2d9468bd07ad0bb9cbdb
-  - enabled: 1
-    path: Assets/Sepatu/Level 1/Soal 1/YAY1.unity
-    guid: f7bdf2acb1642f9469b683d3e017f06c
-  - enabled: 1
-    path: Assets/Sepatu/Level 1/Soal 2/2.1.unity
-    guid: 40f526b8241067b4e88cf4d224e271ff
-  - enabled: 1
-    path: Assets/Sepatu/Level 1/Soal 2/2.2.unity
-    guid: 27e7539f9163c414c98e94889e38bfae
-  - enabled: 1
-    path: Assets/Sepatu/Level 1/Soal 2/2.3.unity
-    guid: 8b5104ce718fa8040b74464bd540de3d
-  - enabled: 1
-    path: Assets/Sepatu/Level 1/Soal 2/YAY2.unity
-    guid: 3bc67398ffab9c44eac6d8f42cb3a0a8
-  - enabled: 1
-    path: Assets/Sepatu/Level 1/Soal 3/3.1.unity
-    guid: 133c23de022b9624182439ffccedce9a
-  - enabled: 1
-    path: Assets/Sepatu/Level 1/Soal 3/3.2.unity
-    guid: b69da7ced1f2b69428a1f98075bedb11
-  - enabled: 1
-    path: Assets/Sepatu/Level 1/Soal 3/3.3.unity
-    guid: 2b1b0c8557b9ea44685aa7908aabec29
-  - enabled: 1
-    path: Assets/Sepatu/Level 1/Soal 3/YAY3.unity
-    guid: 91b28c9cdaa570b4a8066d800df7f07f
->>>>>>> Stashed changes
+  m_Scenes: []
   m_configObjects: {}

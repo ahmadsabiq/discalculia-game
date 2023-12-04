@@ -12,6 +12,7 @@ public class SwitchSprite : MonoBehaviour
 
     public Image img;
     public Sprite on;
+    public Sprite off;
 
     public void SwitchingLamp()
     {
@@ -25,5 +26,9 @@ public class SwitchSprite : MonoBehaviour
         {
             Debug.Log("Cannot switch sprite while QuestionLamps is running.");
         }
+    }
+    public void ButtonOff()
+    {
+        img.sprite = off;
     }
 }
