@@ -557,7 +557,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 36b51f2e3c8531b49a74a64b085b314e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -605,19 +605,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QnA:
-  - Question: Mana sepatu yang cocok untuk kaki tersebut ?
+  - Question: 1. Mana sepatu yang cocok untuk kaki tersebut ?
+    spriteQuestion: {fileID: 21300000, guid: c4c506a627ff605409674a56a58596c9, type: 3}
     Answer:
     - {fileID: 21300000, guid: f4108e6e006898443abaa7ccaf7c67b8, type: 3}
     - {fileID: 21300000, guid: f4108e6e006898443abaa7ccaf7c67b8, type: 3}
     - {fileID: 21300000, guid: f4108e6e006898443abaa7ccaf7c67b8, type: 3}
-    CorrectAnswer: 1
-  - Question: Mana sepatu yang cocok untuk kaki tersebut ?
-    Answer:
-    - {fileID: 21300000, guid: 8cfe776631261de40becfc27d870529e, type: 3}
-    - {fileID: 21300000, guid: 8cfe776631261de40becfc27d870529e, type: 3}
-    - {fileID: 21300000, guid: 8cfe776631261de40becfc27d870529e, type: 3}
     CorrectAnswer: 2
-  - Question: Mana sepatu yang cocok untuk kaki tersebut ?
+  - Question: 2. Mana sepatu yang cocok untuk kaki tersebut ?
+    spriteQuestion: {fileID: 21300000, guid: 52f2befbaa542fb4cb4c5d2ce95ab830, type: 3}
+    Answer:
+    - {fileID: 21300000, guid: 8cfe776631261de40becfc27d870529e, type: 3}
+    - {fileID: 21300000, guid: 8cfe776631261de40becfc27d870529e, type: 3}
+    - {fileID: 21300000, guid: 8cfe776631261de40becfc27d870529e, type: 3}
+    CorrectAnswer: 1
+  - Question: 3. Mana sepatu yang cocok untuk kaki tersebut ?
+    spriteQuestion: {fileID: 21300000, guid: 9b67a3238c8c8924394e4d2116110a63, type: 3}
     Answer:
     - {fileID: 21300000, guid: a4a78de43ebcdf945962038f37b870c8, type: 3}
     - {fileID: 21300000, guid: a4a78de43ebcdf945962038f37b870c8, type: 3}
@@ -628,6 +631,7 @@ MonoBehaviour:
   - {fileID: 130164371}
   - {fileID: 1717232724}
   currentQuestion: 0
+  questionImage: {fileID: 645688634}
   Quizpanel: {fileID: 1528586433}
   GOPanel: {fileID: 1052147385}
   QuestionTxt: {fileID: 1851739979}
@@ -1107,7 +1111,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8045d0f36bf45be41a941232d9a3c622, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countdownText: {fileID: 1864884001}
+  countdownTime: 3
+  countdownTxt: {fileID: 1864884001}
 --- !u!1 &1167193638
 GameObject:
   m_ObjectHideFlags: 0
@@ -2090,13 +2095,13 @@ MonoBehaviour:
     m_BestFit: 1
     m_MinSize: 10
     m_MaxSize: 100
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 00
+  m_Text: 0
 --- !u!222 &1864884002
 CanvasRenderer:
   m_ObjectHideFlags: 0

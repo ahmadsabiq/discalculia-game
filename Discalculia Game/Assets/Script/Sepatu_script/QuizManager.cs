@@ -7,24 +7,43 @@ using UnityEngine.UI;
 
 public class QuizManager : MonoBehaviour
 {
+    public static QuizManager Instance;
+
+    public bool gamePlaying {  get; private set; }
+
     public List<QuestionAndAnswer> QnA;
     public GameObject[] option;
     public int currentQuestion;
+    public Image questionImage;
 
     public GameObject Quizpanel;
     public GameObject GOPanel;
 
-    public UnityEngine.UI.Text QuestionTxt;
+    public Text QuestionTxt;
     public Text ScoreTxt;
+
 
     int totalQuestions = 0;
     public int score;
+
+    private void Awake()
+    {
+        Instance = this;
+    }
 
     private void Start()
     {
         totalQuestions = QnA.Count;
         GOPanel.SetActive(false);
         generateQuestion();
+        gamePlaying = false;
+
+        BeginGame();
+    }
+
+    private void BeginGame()
+    {
+        gamePlaying = true;
     }
 
     public void retry()
@@ -73,6 +92,7 @@ public class QuizManager : MonoBehaviour
             currentQuestion = Random.Range(0, QnA.Count);
 
             QuestionTxt.text = QnA[currentQuestion].Question;
+            questionImage.sprite = QnA[currentQuestion].spriteQuestion;
             SetAnswer();
         }
         else

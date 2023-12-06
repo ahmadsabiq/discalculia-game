@@ -4,25 +4,28 @@ using UnityEngine;
 using UnityEngine.UI;
 public class CountdownTime : MonoBehaviour
 {
-    float currentTime = 0f;
-    float startingTime = 3f;
+    public int countdownTime;
+    public Text countdownTxt;
 
-    [SerializeField] Text countdownText;
-
-    void Start()
+    private void Start()
     {
-        currentTime = startingTime;
+        StartCoroutine(CountdownToStart());
     }
 
-    
-    void Update()
+    IEnumerator CountdownToStart()
     {
-        currentTime -= 1 * Time.deltaTime;
-        countdownText.text = currentTime.ToString("0");
-
-        if (currentTime <= 0)
+        while (countdownTime > 0)
         {
-            currentTime = 0;
+            countdownTxt.text = countdownTime.ToString();
+
+            yield return new WaitForSeconds(1f);
+            countdownTime--;
         }
+
+        countdownTxt.text = "Mulai!";
+
+        yield return new WaitForSeconds(1f);
+
+        countdownTxt.gameObject.SetActive(false);
     }
 }
