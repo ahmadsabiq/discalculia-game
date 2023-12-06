@@ -28,6 +28,8 @@ public class GameController : MonoBehaviour
 
     public AudioSource repeatSfx;
 
+    private int numAttempt = 0;
+
     void Start()
     {
         ResetLamp();
@@ -103,6 +105,7 @@ public class GameController : MonoBehaviour
     {
         StartCoroutine(QuestionLamps());
         Debug.Log("Button Clicked");
+        totalAtt();
     }
 
     public IEnumerator RepeatQuestion()
@@ -117,6 +120,12 @@ public class GameController : MonoBehaviour
         repeatSfx.Play();   
         yield return new WaitForSeconds(1f);    
         Repeat();
+    }
+
+    public void totalAtt()
+    {
+        numAttempt++;
+        Debug.Log(numAttempt);
     }
 }
 
