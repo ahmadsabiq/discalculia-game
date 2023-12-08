@@ -1029,6 +1029,9 @@ MonoBehaviour:
   Starpanel: {fileID: 2044978581}
   QuestionTxt: {fileID: 965154801}
   src: {fileID: 932350271}
+  tittle: Sepatu
+  level: Tiga
+  question: Kedua
 --- !u!1 &1121640803
 GameObject:
   m_ObjectHideFlags: 0

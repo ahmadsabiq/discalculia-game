@@ -2863,6 +2863,9 @@ MonoBehaviour:
   GOPanel: {fileID: 1869603368}
   QuestionTxt: {fileID: 63494014}
   src: {fileID: 72730913}
+  tittle: Sepatu
+  level: Dua
+  question: Ketiga
 --- !u!4 &1756998577
 Transform:
   m_ObjectHideFlags: 0

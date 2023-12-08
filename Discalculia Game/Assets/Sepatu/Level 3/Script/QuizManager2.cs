@@ -29,6 +29,10 @@ public class QuizManager2 : MonoBehaviour
 
     int totalQuestions = 0;
 
+    public string tittle;
+    public string level;
+    public string question;
+
     private void Awake()
     {
         Instance = this;
@@ -42,6 +46,11 @@ public class QuizManager2 : MonoBehaviour
         gamePlaying = false;
 
         BeginGame();
+    }
+
+    public void AddData()
+    {
+        StartCoroutine(DatabaseManager.InsertData(numAttempt, tittle, level, question));
     }
 
     private void BeginGame()

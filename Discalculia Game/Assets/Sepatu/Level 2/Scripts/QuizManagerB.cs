@@ -22,6 +22,10 @@ public class QuizManagerB : MonoBehaviour
 
     int totalQuestion = 0;
 
+    public string tittle;
+    public string level;
+    public string question;
+
     private void Awake()
     {
         Instance = this;
@@ -34,6 +38,11 @@ public class QuizManagerB : MonoBehaviour
         QuizPanel.SetActive(true);
         generateQuestion();
         //SoundManager.singleton.PlaySound();
+    }
+
+    public void AddData()
+    {
+        StartCoroutine(DatabaseManager.InsertData(totalQuestion, tittle, level, question));
     }
 
     /*public void Retry()

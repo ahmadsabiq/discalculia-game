@@ -30,10 +30,21 @@ public class GameController : MonoBehaviour
 
     private int numAttempt = 0;
 
+    public string tittle;
+    public string level;
+    public string question;
+
     void Start()
     {
         ResetLamp();
         StartCoroutine(QuestionLamps());
+        buttonJawab.onClick.AddListener(totalAtt);
+        buttonJawab.onClick.AddListener(AddData);
+    }
+
+    public void AddData()
+    {
+            StartCoroutine(DatabaseManager.InsertData(numAttempt, tittle, level, question));
     }
 
     private void ResetLamp()

@@ -3286,3 +3286,6 @@ MonoBehaviour:
   buttonRepeat: {fileID: 543810045}
   buttonJawab: {fileID: 1936610525}
   repeatSfx: {fileID: 1936610528}
+  tittle: Lampu
+  level: Dua
+  question: Ketiga

@@ -1340,6 +1340,9 @@ MonoBehaviour:
   GOPanel: {fileID: 1776797119}
   QuestionTxt: {fileID: 437372810}
   src: {fileID: 736875351}
+  tittle: Sepatu
+  level: Dua
+  question: Pertama
 --- !u!1 &902030021
 GameObject:
   m_ObjectHideFlags: 0
