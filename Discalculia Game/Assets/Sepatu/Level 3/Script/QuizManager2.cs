@@ -29,8 +29,8 @@ public class QuizManager2 : MonoBehaviour
 
     int totalQuestions = 0;
 
-    public string nama;
-    public string tittle;
+    private string nama = "User";
+    private string tittle = "Sepatu";
     public string level;
     public string question;
 
@@ -124,6 +124,7 @@ public class QuizManager2 : MonoBehaviour
         }
         else
         {
+            AddData();
             Debug.Log("Out of Question");
             StarsScene();
         }

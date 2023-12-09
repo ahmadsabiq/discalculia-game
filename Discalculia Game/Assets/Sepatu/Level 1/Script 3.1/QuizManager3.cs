@@ -29,6 +29,11 @@ public class QuizManager3 : MonoBehaviour
 
     int totalQuestions = 0;
 
+    private string nama = "User";
+    private string tittle = "Sepatu";
+    public string level;
+    public string question;
+
     private void Awake()
     {
         Instance = this;
@@ -42,6 +47,11 @@ public class QuizManager3 : MonoBehaviour
         gamePlaying = false;
 
         BeginGame();
+    }
+
+    public void AddData()
+    {
+        StartCoroutine(DatabaseManager.InsertData(nama, numAttempt, tittle, level, question));
     }
 
     private void BeginGame()
@@ -124,6 +134,7 @@ public class QuizManager3 : MonoBehaviour
         }
         else
         {
+            AddData();
             Debug.Log("Out of Question");
             StarsScene();
         }

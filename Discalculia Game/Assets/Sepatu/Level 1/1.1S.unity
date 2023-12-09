@@ -1180,6 +1180,8 @@ MonoBehaviour:
   Starpanel: {fileID: 1278675072}
   QuestionTxt: {fileID: 965154801}
   src: {fileID: 932350271}
+  level: Satu
+  question: Pertama
 --- !u!4 &1081207013
 Transform:
   m_ObjectHideFlags: 0
@@ -1212,7 +1214,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1121640804
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1294,7 +1296,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1278675073
 Transform:
   m_ObjectHideFlags: 0

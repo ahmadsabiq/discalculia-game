@@ -22,8 +22,8 @@ public class QuizManagerB : MonoBehaviour
 
     int totalQuestion = 0;
 
-    public string nama;
-    public string tittle;
+    private string nama = "User";
+    private string tittle = "Sepatu";
     public string level;
     public string question;
 
@@ -111,6 +111,7 @@ public class QuizManagerB : MonoBehaviour
         }
         else
         {
+            AddData();
             Debug.Log("Out of Questions");
             GameOver();
         }
