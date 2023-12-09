@@ -6,6 +6,8 @@ using UnityEngine.UI;
 public class Belanja3 : MonoBehaviour
 {
     public int jmlApel, jmlMelon, jmlJeruk;
+
+
     public counter Counter;
     public Button button;
     public AudioSource wrongSound;
@@ -23,7 +25,10 @@ public class Belanja3 : MonoBehaviour
     public void Start()
     {
         if (button == null)
+        {
             button = GetComponent<Button>();
+        }
+           
 
         button.onClick.AddListener(PlayClickSound);
     }
@@ -31,6 +36,7 @@ public class Belanja3 : MonoBehaviour
     public void AddData()
     {
         StartCoroutine(DatabaseManager.InsertData(nama, numOfRepeats, tittle, level, question));
+        Debug.Log("InsertData coroutine called.");
     }
 
     // Update is called once per frame
@@ -41,20 +47,27 @@ public class Belanja3 : MonoBehaviour
     public void PlayClickSound()
     {
         if (Counter.apelAmount == jmlApel && Counter.melonAmount == jmlMelon && Counter.jerukAmount == jmlJeruk)
+        {
             rightSound.Play();
+            
+        }
+
         else
+        {
             wrongSound.Play();
+        }
+            
     }
 
     public void Clicked()
     {
         if (Counter.apelAmount == jmlApel && Counter.melonAmount == jmlMelon && Counter.jerukAmount == jmlJeruk)
         {
-
+            AddData();
             Debug.Log("Correct answer!");
             AnsPanel.SetActive(false);
             GOpanel.SetActive(true);
-            button.onClick.AddListener(AddData);
+
         }
         else
         {

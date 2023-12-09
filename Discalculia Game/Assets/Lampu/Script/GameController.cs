@@ -30,7 +30,7 @@ public class GameController : MonoBehaviour
     private int numAttempt = 0;
 
     private string nama = "User";
-    public string tittle;
+    private string tittle = "Lampu";
     public string level;
     public string question;
 
