@@ -5913,6 +5913,8 @@ MonoBehaviour:
   rightSound: {fileID: 1663809007}
   AnsPanel: {fileID: 1564165236}
   GOpanel: {fileID: 2143024549}
+  level: Tiga
+  question: Ketiga
 --- !u!82 &1663809007
 AudioSource:
   m_ObjectHideFlags: 0

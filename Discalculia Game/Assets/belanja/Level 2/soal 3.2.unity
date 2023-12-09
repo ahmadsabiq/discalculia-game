@@ -4521,6 +4521,8 @@ MonoBehaviour:
   rightSound: {fileID: 1284308451}
   AnsPanel: {fileID: 32606189}
   GOpanel: {fileID: 1019015664}
+  level: Dua
+  question: Ketiga
 --- !u!1 &1371160369
 GameObject:
   m_ObjectHideFlags: 0

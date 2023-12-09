@@ -6,9 +6,10 @@ using System;
 
 public class DatabaseManager : MonoBehaviour
 {
-    public static IEnumerator InsertData(int attempt, string tittle, string level, string question)
+    public static IEnumerator InsertData(string name, int attempt, string tittle, string level, string question)
     {
         WWWForm form = new WWWForm();
+        form.AddField("name", name);
         form.AddField("attempt", attempt);
         form.AddField("tittle", tittle);
         form.AddField("level", level);

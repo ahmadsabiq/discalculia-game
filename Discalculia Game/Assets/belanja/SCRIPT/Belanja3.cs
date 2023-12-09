@@ -14,6 +14,11 @@ public class Belanja3 : MonoBehaviour
     public GameObject GOpanel;
     private int numOfRepeats;
 
+    private string nama = "User";
+    private string tittle = "Belanja";
+    public string level;
+    public string question;
+
     // Start is called before the first frame update
     public void Start()
     {
@@ -21,6 +26,11 @@ public class Belanja3 : MonoBehaviour
             button = GetComponent<Button>();
 
         button.onClick.AddListener(PlayClickSound);
+    }
+
+    public void AddData()
+    {
+        StartCoroutine(DatabaseManager.InsertData(nama, numOfRepeats, tittle, level, question));
     }
 
     // Update is called once per frame
@@ -40,9 +50,11 @@ public class Belanja3 : MonoBehaviour
     {
         if (Counter.apelAmount == jmlApel && Counter.melonAmount == jmlMelon && Counter.jerukAmount == jmlJeruk)
         {
+
             Debug.Log("Correct answer!");
             AnsPanel.SetActive(false);
             GOpanel.SetActive(true);
+            button.onClick.AddListener(AddData);
         }
         else
         {

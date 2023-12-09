@@ -29,6 +29,7 @@ public class QuizManager2 : MonoBehaviour
 
     int totalQuestions = 0;
 
+    public string nama;
     public string tittle;
     public string level;
     public string question;
@@ -50,7 +51,7 @@ public class QuizManager2 : MonoBehaviour
 
     public void AddData()
     {
-        StartCoroutine(DatabaseManager.InsertData(numAttempt, tittle, level, question));
+        StartCoroutine(DatabaseManager.InsertData(nama, numAttempt, tittle, level, question));
     }
 
     private void BeginGame()

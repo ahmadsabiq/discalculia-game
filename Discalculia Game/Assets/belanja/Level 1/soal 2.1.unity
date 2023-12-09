@@ -1151,6 +1151,9 @@ MonoBehaviour:
   rightSound: {fileID: 224577961}
   AnsPanel: {fileID: 1174473550}
   GOpanel: {fileID: 407926053}
+  tittle: Belanja
+  level: Satu
+  question: Kedua
 --- !u!1 &241935480
 GameObject:
   m_ObjectHideFlags: 0

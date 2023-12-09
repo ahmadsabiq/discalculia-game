@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using TMPro;
-using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -30,6 +29,7 @@ public class GameController : MonoBehaviour
 
     private int numAttempt = 0;
 
+    private string nama = "User";
     public string tittle;
     public string level;
     public string question;
@@ -38,13 +38,11 @@ public class GameController : MonoBehaviour
     {
         ResetLamp();
         StartCoroutine(QuestionLamps());
-        buttonJawab.onClick.AddListener(totalAtt);
-        buttonJawab.onClick.AddListener(AddData);
     }
 
     public void AddData()
     {
-            StartCoroutine(DatabaseManager.InsertData(numAttempt, tittle, level, question));
+            StartCoroutine(DatabaseManager.InsertData(nama,numAttempt, tittle, level, question));
     }
 
     private void ResetLamp()
@@ -106,6 +104,7 @@ public class GameController : MonoBehaviour
         }
         else
         {
+            AddData();
             print("Correct Answer");
             Starpanel.SetActive(true);
             Quizpanel.SetActive(false);

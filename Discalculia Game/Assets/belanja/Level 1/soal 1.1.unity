@@ -6157,6 +6157,9 @@ MonoBehaviour:
   rightSound: {fileID: 2026533143}
   AnsPanel: {fileID: 680319799}
   GOpanel: {fileID: 985217882}
+  tittle: Belanja
+  level: Satu
+  question: Pertama
 --- !u!82 &2026533143
 AudioSource:
   m_ObjectHideFlags: 0

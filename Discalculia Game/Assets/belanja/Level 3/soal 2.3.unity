@@ -7139,6 +7139,8 @@ MonoBehaviour:
   rightSound: {fileID: 1930169511}
   AnsPanel: {fileID: 1578680037}
   GOpanel: {fileID: 1506637787}
+  level: TIga
+  question: Kedua
 --- !u!114 &1930169510
 MonoBehaviour:
   m_ObjectHideFlags: 0

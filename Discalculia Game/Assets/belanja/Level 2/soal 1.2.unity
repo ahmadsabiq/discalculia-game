@@ -1737,6 +1737,8 @@ MonoBehaviour:
   rightSound: {fileID: 605670210}
   AnsPanel: {fileID: 1724741128}
   GOpanel: {fileID: 1833861104}
+  level: Dua
+  question: Pertama
 --- !u!114 &605670208
 MonoBehaviour:
   m_ObjectHideFlags: 0

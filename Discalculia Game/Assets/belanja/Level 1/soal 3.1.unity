@@ -3962,6 +3962,8 @@ MonoBehaviour:
   rightSound: {fileID: 1254765960}
   AnsPanel: {fileID: 1246480195}
   GOpanel: {fileID: 33165097}
+  level: Satu
+  question: Ketiga
 --- !u!82 &1254765960
 AudioSource:
   m_ObjectHideFlags: 0

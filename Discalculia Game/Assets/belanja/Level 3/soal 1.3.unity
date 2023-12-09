@@ -2706,6 +2706,8 @@ MonoBehaviour:
   rightSound: {fileID: 888308760}
   AnsPanel: {fileID: 1804290027}
   GOpanel: {fileID: 1172552098}
+  level: Tiga
+  question: Pertama
 --- !u!114 &888308759
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -6523,6 +6523,8 @@ MonoBehaviour:
   rightSound: {fileID: 1735221025}
   AnsPanel: {fileID: 190785615}
   GOpanel: {fileID: 1064687476}
+  level: Dua
+  question: Kedua
 --- !u!82 &1735221025
 AudioSource:
   m_ObjectHideFlags: 0
