@@ -1555,7 +1555,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 2522a662498db0745ab634218d1ca559, type: 3}
+  m_audioClip: {fileID: 8300000, guid: f9403f2151734aa4fb2d1733f6af1bb2, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -2485,9 +2485,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: a95dfe41b5034184eaf4df557e71f4e8, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 45f26b813139e6c4ab0736714bfff1de, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.8
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -2792,9 +2792,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: a50dbe9cf1b33a94f9d017d4628f309d, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 9f0d4abde814e5d4cbed5d0273945be6, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.6
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -3260,6 +3260,5 @@ MonoBehaviour:
   buttonRepeat: {fileID: 543810045}
   buttonJawab: {fileID: 1936610525}
   repeatSfx: {fileID: 1936610528}
-  tittle: Level
   level: Tiga
   question: Kedua

@@ -119,6 +119,12 @@ public class QuizManager3 : MonoBehaviour
                 option[i].GetComponent<AnswerScript3>().isCorrect = false;
                 option[i].GetComponent<AnswerScript3>().sound = QnA[currentQuestion].wrongAudioClip4;
             }
+
+            else if (QnA[currentQuestion].wrongAnswerIndex5 == i + 1)
+            {
+                option[i].GetComponent<AnswerScript3>().isCorrect = false;
+                option[i].GetComponent<AnswerScript3>().sound = QnA[currentQuestion].wrongAudioClip5;
+            }
         }
     }
 

@@ -20,6 +20,9 @@ public class QuestionAndAnswer3
 
     public int wrongAnswerIndex4; // Index of the second wrong answer (0, 1, or 2)
     public AudioClip wrongAudioClip4;
+
+    public int wrongAnswerIndex5; // Index of the second wrong answer (0, 1, or 2)
+    public AudioClip wrongAudioClip5;
 }
 
 

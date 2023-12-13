@@ -1418,8 +1418,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 44.899982}
-  m_SizeDelta: {x: 287.403, y: 31.2708}
+  m_AnchoredPosition: {x: 4.5, y: 46.568}
+  m_SizeDelta: {x: 325.5496, y: 31.2708}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &965154801
 MonoBehaviour:
@@ -1441,7 +1441,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Mana sendal warna merah?
+  m_text: Manakah sandal warna merah?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1694,41 +1694,41 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QnA:
-  - Question: Mana sepatu warna hijau?
-    questionAudioClip: {fileID: 0}
+  - Question: Manakah sepatu warna hijau?
+    questionAudioClip: {fileID: 8300000, guid: 383b6695a5cb4524fae2ed4612ca3da6, type: 3}
     Answer:
     - {fileID: 21300000, guid: a4a78de43ebcdf945962038f37b870c8, type: 3}
     - {fileID: 21300000, guid: 8cfe776631261de40becfc27d870529e, type: 3}
     - {fileID: 21300000, guid: f4108e6e006898443abaa7ccaf7c67b8, type: 3}
     CorrectAnswer: 2
-    correctAudioClip: {fileID: 0}
-    wrongAnswerIndex1: 0
+    correctAudioClip: {fileID: 8300000, guid: e0f07d08ec8ef074eb82d24a9cd2569b, type: 3}
+    wrongAnswerIndex1: 1
     wrongAudioClip1: {fileID: 0}
-    wrongAnswerIndex2: 0
+    wrongAnswerIndex2: 3
     wrongAudioClip2: {fileID: 0}
-  - Question: Mana sepatu warna merah?
-    questionAudioClip: {fileID: 0}
+  - Question: Manakah sepatu warna merah?
+    questionAudioClip: {fileID: 8300000, guid: 0e39511de4a884344aff7db6846d056f, type: 3}
     Answer:
     - {fileID: 21300000, guid: 8cfe776631261de40becfc27d870529e, type: 3}
     - {fileID: 21300000, guid: f4108e6e006898443abaa7ccaf7c67b8, type: 3}
     - {fileID: 21300000, guid: a4a78de43ebcdf945962038f37b870c8, type: 3}
     CorrectAnswer: 3
-    correctAudioClip: {fileID: 0}
-    wrongAnswerIndex1: 0
+    correctAudioClip: {fileID: 8300000, guid: 7f9f6aa6bdb25de4ebb5b6baecfd5c55, type: 3}
+    wrongAnswerIndex1: 1
     wrongAudioClip1: {fileID: 0}
-    wrongAnswerIndex2: 0
+    wrongAnswerIndex2: 2
     wrongAudioClip2: {fileID: 0}
-  - Question: Mana sepatu warna biru?
-    questionAudioClip: {fileID: 0}
+  - Question: Manakah sepatu warna biru?
+    questionAudioClip: {fileID: 8300000, guid: 1e9579df3af25d9418b03a53b204d880, type: 3}
     Answer:
     - {fileID: 21300000, guid: f4108e6e006898443abaa7ccaf7c67b8, type: 3}
     - {fileID: 21300000, guid: a4a78de43ebcdf945962038f37b870c8, type: 3}
     - {fileID: 21300000, guid: 8cfe776631261de40becfc27d870529e, type: 3}
     CorrectAnswer: 1
-    correctAudioClip: {fileID: 0}
-    wrongAnswerIndex1: 0
+    correctAudioClip: {fileID: 8300000, guid: 00d9b76c638aa9b47997798f5523f428, type: 3}
+    wrongAnswerIndex1: 2
     wrongAudioClip1: {fileID: 0}
-    wrongAnswerIndex2: 0
+    wrongAnswerIndex2: 3
     wrongAudioClip2: {fileID: 0}
   option:
   - {fileID: 611674169}
@@ -2272,7 +2272,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 183.59998, y: 47.932983}
+  m_AnchoredPosition: {x: 200, y: 47.933}
   m_SizeDelta: {x: 33, y: 34}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1515939314

@@ -1408,7 +1408,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: a2729f464b8918d4fba3a6240ed7369f, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 9b41e22fb8c3ca14eb4070f044a111b7, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1676,7 +1676,7 @@ MonoBehaviour:
   QnA:
   - Question: Mana sepatu yang cocok untuk kaki tersebut?
     spriteQuestion: {fileID: 21300000, guid: ffd8f5aec51b61b4cab82f368c397977, type: 3}
-    questionAudioClip: {fileID: 8300000, guid: a95dfe41b5034184eaf4df557e71f4e8, type: 3}
+    questionAudioClip: {fileID: 8300000, guid: 9b41e22fb8c3ca14eb4070f044a111b7, type: 3}
     Answer:
     - {fileID: 21300000, guid: a4a78de43ebcdf945962038f37b870c8, type: 3}
     - {fileID: 21300000, guid: a4a78de43ebcdf945962038f37b870c8, type: 3}
@@ -1689,7 +1689,7 @@ MonoBehaviour:
     wrongAudioClip2: {fileID: 8300000, guid: a50dbe9cf1b33a94f9d017d4628f309d, type: 3}
   - Question: Mana sepatu yang cocok untuk kaki tersebut?
     spriteQuestion: {fileID: 21300000, guid: dca9a153d348e9c4395a2975740acf5c, type: 3}
-    questionAudioClip: {fileID: 8300000, guid: a95dfe41b5034184eaf4df557e71f4e8, type: 3}
+    questionAudioClip: {fileID: 8300000, guid: 9b41e22fb8c3ca14eb4070f044a111b7, type: 3}
     Answer:
     - {fileID: 21300000, guid: 50e3b0bb03df0a6489ff1e6c0b41e8e6, type: 3}
     - {fileID: 21300000, guid: 50e3b0bb03df0a6489ff1e6c0b41e8e6, type: 3}
@@ -1702,7 +1702,7 @@ MonoBehaviour:
     wrongAudioClip2: {fileID: 8300000, guid: a50dbe9cf1b33a94f9d017d4628f309d, type: 3}
   - Question: Mana sepatu yang cocok untuk kaki tersebut?
     spriteQuestion: {fileID: 21300000, guid: 36b51f2e3c8531b49a74a64b085b314e, type: 3}
-    questionAudioClip: {fileID: 8300000, guid: a2729f464b8918d4fba3a6240ed7369f, type: 3}
+    questionAudioClip: {fileID: 8300000, guid: 9b41e22fb8c3ca14eb4070f044a111b7, type: 3}
     Answer:
     - {fileID: 21300000, guid: 4562eb9a8089e4d47a56d84d0ed03595, type: 3}
     - {fileID: 21300000, guid: 4562eb9a8089e4d47a56d84d0ed03595, type: 3}
@@ -1723,7 +1723,6 @@ MonoBehaviour:
   Starpanel: {fileID: 1681317433}
   QuestionTxt: {fileID: 965154801}
   src: {fileID: 932350271}
-  tittle: Sepatu
   level: Tiga
   question: Pertama
 --- !u!1 &1121640803

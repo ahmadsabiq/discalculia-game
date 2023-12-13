@@ -212,7 +212,7 @@ GameObject:
   - component: {fileID: 174164497}
   - component: {fileID: 174164496}
   - component: {fileID: 174164495}
-  - component: {fileID: 174164494}
+  - component: {fileID: 174164498}
   m_Layer: 5
   m_Name: Button5
   m_TagString: Untagged
@@ -241,21 +241,6 @@ RectTransform:
   m_AnchoredPosition: {x: -0.000022888, y: -82}
   m_SizeDelta: {x: 70, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &174164494
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 174164492}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9936be62855a51438957173282d37b9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  quizManager: {fileID: 1081207012}
-  isCorrect: 0
-  sound: {fileID: 0}
 --- !u!114 &174164495
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -300,8 +285,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 174164494}
-        m_TargetAssemblyTypeName: AnswerScript, Assembly-CSharp
+      - m_Target: {fileID: 174164498}
+        m_TargetAssemblyTypeName: AnswerScript3, Assembly-CSharp
         m_MethodName: Answer
         m_Mode: 1
         m_Arguments:
@@ -350,6 +335,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 174164492}
   m_CullTransparentMesh: 1
+--- !u!114 &174164498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 174164492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90b7fb7b3dc9ee54cab32a73ca2cd3d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  quizManager: {fileID: 1081207014}
+  isCorrect: 0
+  sound: {fileID: 0}
 --- !u!1 &305675280
 GameObject:
   m_ObjectHideFlags: 0
@@ -630,7 +630,7 @@ GameObject:
   - component: {fileID: 406135749}
   - component: {fileID: 406135748}
   - component: {fileID: 406135747}
-  - component: {fileID: 406135746}
+  - component: {fileID: 406135750}
   m_Layer: 5
   m_Name: Button6
   m_TagString: Untagged
@@ -659,21 +659,6 @@ RectTransform:
   m_AnchoredPosition: {x: 114.99995, y: -81.99999}
   m_SizeDelta: {x: 70, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &406135746
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 406135744}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9936be62855a51438957173282d37b9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  quizManager: {fileID: 1081207012}
-  isCorrect: 0
-  sound: {fileID: 0}
 --- !u!114 &406135747
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -718,8 +703,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 406135746}
-        m_TargetAssemblyTypeName: AnswerScript, Assembly-CSharp
+      - m_Target: {fileID: 406135750}
+        m_TargetAssemblyTypeName: AnswerScript3, Assembly-CSharp
         m_MethodName: Answer
         m_Mode: 1
         m_Arguments:
@@ -768,6 +753,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 406135744}
   m_CullTransparentMesh: 1
+--- !u!114 &406135750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 406135744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90b7fb7b3dc9ee54cab32a73ca2cd3d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  quizManager: {fileID: 1081207014}
+  isCorrect: 0
+  sound: {fileID: 0}
 --- !u!1 &418539521
 GameObject:
   m_ObjectHideFlags: 0
@@ -1115,7 +1115,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 611674175}
-        m_TargetAssemblyTypeName: AnswerScript, Assembly-CSharp
+        m_TargetAssemblyTypeName: AnswerScript3, Assembly-CSharp
         m_MethodName: Answer
         m_Mode: 1
         m_Arguments:
@@ -1173,10 +1173,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 611674169}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9936be62855a51438957173282d37b9, type: 3}
+  m_Script: {fileID: 11500000, guid: 90b7fb7b3dc9ee54cab32a73ca2cd3d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  quizManager: {fileID: 1081207012}
+  quizManager: {fileID: 1081207014}
   isCorrect: 0
   sound: {fileID: 0}
 --- !u!1 &711894329
@@ -1400,7 +1400,7 @@ GameObject:
   - component: {fileID: 949884065}
   - component: {fileID: 949884064}
   - component: {fileID: 949884063}
-  - component: {fileID: 949884062}
+  - component: {fileID: 949884066}
   m_Layer: 5
   m_Name: Button4
   m_TagString: Untagged
@@ -1429,21 +1429,6 @@ RectTransform:
   m_AnchoredPosition: {x: -115, y: -82}
   m_SizeDelta: {x: 70, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &949884062
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 949884060}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9936be62855a51438957173282d37b9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  quizManager: {fileID: 1081207012}
-  isCorrect: 0
-  sound: {fileID: 0}
 --- !u!114 &949884063
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1488,8 +1473,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 949884062}
-        m_TargetAssemblyTypeName: AnswerScript, Assembly-CSharp
+      - m_Target: {fileID: 949884066}
+        m_TargetAssemblyTypeName: AnswerScript3, Assembly-CSharp
         m_MethodName: Answer
         m_Mode: 1
         m_Arguments:
@@ -1538,6 +1523,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 949884060}
   m_CullTransparentMesh: 1
+--- !u!114 &949884066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 949884060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90b7fb7b3dc9ee54cab32a73ca2cd3d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  quizManager: {fileID: 1081207014}
+  isCorrect: 0
+  sound: {fileID: 0}
 --- !u!1 &965154799
 GameObject:
   m_ObjectHideFlags: 0
@@ -1573,8 +1573,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 105.77995}
-  m_SizeDelta: {x: 287.403, y: 31.2708}
+  m_AnchoredPosition: {x: 0.0000038147, y: 105.78}
+  m_SizeDelta: {x: 324.4277, y: 31.2708}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &965154801
 MonoBehaviour:
@@ -1596,7 +1596,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Mana sendal warna merah?
+  m_text: Manakah sandal warna merah?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1828,7 +1828,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1081207013}
-  - component: {fileID: 1081207012}
+  - component: {fileID: 1081207014}
   m_Layer: 0
   m_Name: QuizManager
   m_TagString: Untagged
@@ -1836,78 +1836,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1081207012
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1081207011}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff8a7d332733b3f4ba1ba7a9b06d7444, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  QnA:
-  - Question: Mana sepatu warna hijau?
-    questionAudioClip: {fileID: 0}
-    Answer:
-    - {fileID: 21300000, guid: 50e3b0bb03df0a6489ff1e6c0b41e8e6, type: 3}
-    - {fileID: 21300000, guid: 46b5a3b6fe9e2b5469961ca08d6988a4, type: 3}
-    - {fileID: 21300000, guid: 4562eb9a8089e4d47a56d84d0ed03595, type: 3}
-    - {fileID: 21300000, guid: f4108e6e006898443abaa7ccaf7c67b8, type: 3}
-    - {fileID: 21300000, guid: 8cfe776631261de40becfc27d870529e, type: 3}
-    - {fileID: 21300000, guid: a4a78de43ebcdf945962038f37b870c8, type: 3}
-    CorrectAnswer: 5
-    correctAudioClip: {fileID: 0}
-    wrongAnswerIndex1: 0
-    wrongAudioClip1: {fileID: 0}
-    wrongAnswerIndex2: 0
-    wrongAudioClip2: {fileID: 0}
-  - Question: Mana sendal warna biru?
-    questionAudioClip: {fileID: 0}
-    Answer:
-    - {fileID: 21300000, guid: 46b5a3b6fe9e2b5469961ca08d6988a4, type: 3}
-    - {fileID: 21300000, guid: 4562eb9a8089e4d47a56d84d0ed03595, type: 3}
-    - {fileID: 21300000, guid: 50e3b0bb03df0a6489ff1e6c0b41e8e6, type: 3}
-    - {fileID: 21300000, guid: 8cfe776631261de40becfc27d870529e, type: 3}
-    - {fileID: 21300000, guid: a4a78de43ebcdf945962038f37b870c8, type: 3}
-    - {fileID: 21300000, guid: f4108e6e006898443abaa7ccaf7c67b8, type: 3}
-    CorrectAnswer: 3
-    correctAudioClip: {fileID: 0}
-    wrongAnswerIndex1: 0
-    wrongAudioClip1: {fileID: 0}
-    wrongAnswerIndex2: 0
-    wrongAudioClip2: {fileID: 0}
-  - Question: Mana sendal warna hijau?
-    questionAudioClip: {fileID: 0}
-    Answer:
-    - {fileID: 21300000, guid: 8cfe776631261de40becfc27d870529e, type: 3}
-    - {fileID: 21300000, guid: f4108e6e006898443abaa7ccaf7c67b8, type: 3}
-    - {fileID: 21300000, guid: a4a78de43ebcdf945962038f37b870c8, type: 3}
-    - {fileID: 21300000, guid: 46b5a3b6fe9e2b5469961ca08d6988a4, type: 3}
-    - {fileID: 21300000, guid: 50e3b0bb03df0a6489ff1e6c0b41e8e6, type: 3}
-    - {fileID: 21300000, guid: 4562eb9a8089e4d47a56d84d0ed03595, type: 3}
-    CorrectAnswer: 6
-    correctAudioClip: {fileID: 0}
-    wrongAnswerIndex1: 0
-    wrongAudioClip1: {fileID: 0}
-    wrongAnswerIndex2: 0
-    wrongAudioClip2: {fileID: 0}
-  option:
-  - {fileID: 611674169}
-  - {fileID: 2100967847}
-  - {fileID: 1901584539}
-  - {fileID: 949884060}
-  - {fileID: 174164492}
-  - {fileID: 406135744}
-  currentQuestion: 0
-  Quizpanel: {fileID: 1121640803}
-  Starpanel: {fileID: 389261345}
-  QuestionTxt: {fileID: 965154801}
-  src: {fileID: 932350271}
-  level: Satu
-  question: Ketiga
 --- !u!4 &1081207013
 Transform:
   m_ObjectHideFlags: 0
@@ -1923,6 +1851,96 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1081207014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1081207011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 478d2413ed187d946a0ff0fc2b7fa108, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  QnA:
+  - Question: Manakah sepatu warna hijau?
+    questionAudioClip: {fileID: 8300000, guid: 383b6695a5cb4524fae2ed4612ca3da6, type: 3}
+    Answer:
+    - {fileID: 21300000, guid: 50e3b0bb03df0a6489ff1e6c0b41e8e6, type: 3}
+    - {fileID: 21300000, guid: 46b5a3b6fe9e2b5469961ca08d6988a4, type: 3}
+    - {fileID: 21300000, guid: 4562eb9a8089e4d47a56d84d0ed03595, type: 3}
+    - {fileID: 21300000, guid: f4108e6e006898443abaa7ccaf7c67b8, type: 3}
+    - {fileID: 21300000, guid: 8cfe776631261de40becfc27d870529e, type: 3}
+    - {fileID: 21300000, guid: 7286364295376b247ad708159c6a036b, type: 3}
+    CorrectAnswer: 5
+    correctAudioClip: {fileID: 8300000, guid: e0f07d08ec8ef074eb82d24a9cd2569b, type: 3}
+    wrongAnswerIndex1: 1
+    wrongAudioClip1: {fileID: 0}
+    wrongAnswerIndex2: 2
+    wrongAudioClip2: {fileID: 0}
+    wrongAnswerIndex3: 3
+    wrongAudioClip3: {fileID: 0}
+    wrongAnswerIndex4: 4
+    wrongAudioClip4: {fileID: 0}
+    wrongAnswerIndex5: 6
+    wrongAudioClip5: {fileID: 0}
+  - Question: Manakah sandal warna biru?
+    questionAudioClip: {fileID: 8300000, guid: 38dbe884de7325149bff094b5cc3e463, type: 3}
+    Answer:
+    - {fileID: 21300000, guid: 46b5a3b6fe9e2b5469961ca08d6988a4, type: 3}
+    - {fileID: 21300000, guid: 4562eb9a8089e4d47a56d84d0ed03595, type: 3}
+    - {fileID: 21300000, guid: 50e3b0bb03df0a6489ff1e6c0b41e8e6, type: 3}
+    - {fileID: 21300000, guid: 8cfe776631261de40becfc27d870529e, type: 3}
+    - {fileID: 21300000, guid: 7286364295376b247ad708159c6a036b, type: 3}
+    - {fileID: 21300000, guid: f4108e6e006898443abaa7ccaf7c67b8, type: 3}
+    CorrectAnswer: 3
+    correctAudioClip: {fileID: 8300000, guid: e0f07d08ec8ef074eb82d24a9cd2569b, type: 3}
+    wrongAnswerIndex1: 1
+    wrongAudioClip1: {fileID: 0}
+    wrongAnswerIndex2: 2
+    wrongAudioClip2: {fileID: 0}
+    wrongAnswerIndex3: 4
+    wrongAudioClip3: {fileID: 0}
+    wrongAnswerIndex4: 5
+    wrongAudioClip4: {fileID: 0}
+    wrongAnswerIndex5: 6
+    wrongAudioClip5: {fileID: 0}
+  - Question: Manakah sandal warna hijau?
+    questionAudioClip: {fileID: 8300000, guid: da208a7500bbd89418d3f1a53ef0f099, type: 3}
+    Answer:
+    - {fileID: 21300000, guid: 8cfe776631261de40becfc27d870529e, type: 3}
+    - {fileID: 21300000, guid: f4108e6e006898443abaa7ccaf7c67b8, type: 3}
+    - {fileID: 21300000, guid: 7286364295376b247ad708159c6a036b, type: 3}
+    - {fileID: 21300000, guid: 46b5a3b6fe9e2b5469961ca08d6988a4, type: 3}
+    - {fileID: 21300000, guid: 50e3b0bb03df0a6489ff1e6c0b41e8e6, type: 3}
+    - {fileID: 21300000, guid: 4562eb9a8089e4d47a56d84d0ed03595, type: 3}
+    CorrectAnswer: 6
+    correctAudioClip: {fileID: 8300000, guid: e0f07d08ec8ef074eb82d24a9cd2569b, type: 3}
+    wrongAnswerIndex1: 1
+    wrongAudioClip1: {fileID: 0}
+    wrongAnswerIndex2: 2
+    wrongAudioClip2: {fileID: 0}
+    wrongAnswerIndex3: 3
+    wrongAudioClip3: {fileID: 0}
+    wrongAnswerIndex4: 4
+    wrongAudioClip4: {fileID: 0}
+    wrongAnswerIndex5: 5
+    wrongAudioClip5: {fileID: 0}
+  option:
+  - {fileID: 611674169}
+  - {fileID: 2100967847}
+  - {fileID: 1901584539}
+  - {fileID: 949884060}
+  - {fileID: 174164492}
+  - {fileID: 406135744}
+  currentQuestion: 0
+  Quizpanel: {fileID: 1121640803}
+  Starpanel: {fileID: 389261345}
+  QuestionTxt: {fileID: 965154801}
+  src: {fileID: 932350271}
+  level: Satu
+  question: Ketiga
 --- !u!1 &1121640803
 GameObject:
   m_ObjectHideFlags: 0
@@ -3182,7 +3200,7 @@ GameObject:
   - component: {fileID: 1901584544}
   - component: {fileID: 1901584543}
   - component: {fileID: 1901584542}
-  - component: {fileID: 1901584541}
+  - component: {fileID: 1901584545}
   m_Layer: 5
   m_Name: Button3
   m_TagString: Untagged
@@ -3211,21 +3229,6 @@ RectTransform:
   m_AnchoredPosition: {x: 115, y: 35}
   m_SizeDelta: {x: 70, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1901584541
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1901584539}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9936be62855a51438957173282d37b9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  quizManager: {fileID: 1081207012}
-  isCorrect: 0
-  sound: {fileID: 0}
 --- !u!114 &1901584542
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3270,8 +3273,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1901584541}
-        m_TargetAssemblyTypeName: AnswerScript, Assembly-CSharp
+      - m_Target: {fileID: 1901584545}
+        m_TargetAssemblyTypeName: AnswerScript3, Assembly-CSharp
         m_MethodName: Answer
         m_Mode: 1
         m_Arguments:
@@ -3320,6 +3323,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1901584539}
   m_CullTransparentMesh: 1
+--- !u!114 &1901584545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1901584539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90b7fb7b3dc9ee54cab32a73ca2cd3d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  quizManager: {fileID: 1081207014}
+  isCorrect: 0
+  sound: {fileID: 0}
 --- !u!1 &1967390200
 GameObject:
   m_ObjectHideFlags: 0
@@ -3408,7 +3426,7 @@ GameObject:
   - component: {fileID: 2100967852}
   - component: {fileID: 2100967851}
   - component: {fileID: 2100967850}
-  - component: {fileID: 2100967849}
+  - component: {fileID: 2100967853}
   m_Layer: 5
   m_Name: Button2
   m_TagString: Untagged
@@ -3437,21 +3455,6 @@ RectTransform:
   m_AnchoredPosition: {x: -0.000013828, y: 35}
   m_SizeDelta: {x: 70, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2100967849
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2100967847}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9936be62855a51438957173282d37b9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  quizManager: {fileID: 1081207012}
-  isCorrect: 0
-  sound: {fileID: 0}
 --- !u!114 &2100967850
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3496,8 +3499,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2100967849}
-        m_TargetAssemblyTypeName: AnswerScript, Assembly-CSharp
+      - m_Target: {fileID: 2100967853}
+        m_TargetAssemblyTypeName: AnswerScript3, Assembly-CSharp
         m_MethodName: Answer
         m_Mode: 1
         m_Arguments:
@@ -3546,6 +3549,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2100967847}
   m_CullTransparentMesh: 1
+--- !u!114 &2100967853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2100967847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90b7fb7b3dc9ee54cab32a73ca2cd3d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  quizManager: {fileID: 1081207014}
+  isCorrect: 0
+  sound: {fileID: 0}
 --- !u!1 &2127824863
 GameObject:
   m_ObjectHideFlags: 0

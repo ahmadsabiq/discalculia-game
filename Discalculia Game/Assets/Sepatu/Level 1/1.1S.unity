@@ -1005,7 +1005,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 44.899982}
+  m_AnchoredPosition: {x: 0, y: 49.298}
   m_SizeDelta: {x: 287.403, y: 31.2708}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &965154801
@@ -1028,7 +1028,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Mana sendal warna merah?
+  m_text: Manakah sandal warna merah?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1135,38 +1135,38 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QnA:
-  - Question: Mana sendal warna merah?
-    questionAudioClip: {fileID: 8300000, guid: 3332fa2b2fb8228439f608c9c08a6680, type: 3}
+  - Question: Manakah sandal warna merah?
+    questionAudioClip: {fileID: 8300000, guid: 72c0e2fed9197ad4caaa41469ca9feed, type: 3}
     Answer:
     - {fileID: 21300000, guid: 50e3b0bb03df0a6489ff1e6c0b41e8e6, type: 3}
     - {fileID: 21300000, guid: 46b5a3b6fe9e2b5469961ca08d6988a4, type: 3}
     - {fileID: 21300000, guid: 4562eb9a8089e4d47a56d84d0ed03595, type: 3}
     CorrectAnswer: 2
-    correctAudioClip: {fileID: 8300000, guid: a95dfe41b5034184eaf4df557e71f4e8, type: 3}
+    correctAudioClip: {fileID: 8300000, guid: 0cbb189e01a70ff45a528504daef6292, type: 3}
     wrongAnswerIndex1: 1
     wrongAudioClip1: {fileID: 8300000, guid: a2729f464b8918d4fba3a6240ed7369f, type: 3}
     wrongAnswerIndex2: 3
     wrongAudioClip2: {fileID: 8300000, guid: 3332fa2b2fb8228439f608c9c08a6680, type: 3}
-  - Question: Mana sendal warna biru?
-    questionAudioClip: {fileID: 8300000, guid: a50dbe9cf1b33a94f9d017d4628f309d, type: 3}
+  - Question: Manakah sandal warna biru?
+    questionAudioClip: {fileID: 8300000, guid: 38dbe884de7325149bff094b5cc3e463, type: 3}
     Answer:
     - {fileID: 21300000, guid: 46b5a3b6fe9e2b5469961ca08d6988a4, type: 3}
     - {fileID: 21300000, guid: 4562eb9a8089e4d47a56d84d0ed03595, type: 3}
     - {fileID: 21300000, guid: 50e3b0bb03df0a6489ff1e6c0b41e8e6, type: 3}
     CorrectAnswer: 3
-    correctAudioClip: {fileID: 8300000, guid: a95dfe41b5034184eaf4df557e71f4e8, type: 3}
+    correctAudioClip: {fileID: 8300000, guid: efe759194e3e4a74d98ef2ed2f909d13, type: 3}
     wrongAnswerIndex1: 1
     wrongAudioClip1: {fileID: 8300000, guid: 3332fa2b2fb8228439f608c9c08a6680, type: 3}
     wrongAnswerIndex2: 2
     wrongAudioClip2: {fileID: 8300000, guid: a50dbe9cf1b33a94f9d017d4628f309d, type: 3}
-  - Question: Mana sendal warna hijau?
-    questionAudioClip: {fileID: 8300000, guid: a95dfe41b5034184eaf4df557e71f4e8, type: 3}
+  - Question: Manakah sandal warna hijau?
+    questionAudioClip: {fileID: 8300000, guid: da208a7500bbd89418d3f1a53ef0f099, type: 3}
     Answer:
     - {fileID: 21300000, guid: 4562eb9a8089e4d47a56d84d0ed03595, type: 3}
     - {fileID: 21300000, guid: 50e3b0bb03df0a6489ff1e6c0b41e8e6, type: 3}
     - {fileID: 21300000, guid: 46b5a3b6fe9e2b5469961ca08d6988a4, type: 3}
     CorrectAnswer: 1
-    correctAudioClip: {fileID: 8300000, guid: a50dbe9cf1b33a94f9d017d4628f309d, type: 3}
+    correctAudioClip: {fileID: 8300000, guid: 80bf13c0504336a459b7f0e63cf22fbf, type: 3}
     wrongAnswerIndex1: 2
     wrongAudioClip1: {fileID: 8300000, guid: 3332fa2b2fb8228439f608c9c08a6680, type: 3}
     wrongAnswerIndex2: 3
@@ -2061,7 +2061,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 183.59998, y: 47.932983}
+  m_AnchoredPosition: {x: 190, y: 47.933}
   m_SizeDelta: {x: 33, y: 34}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1515939314
