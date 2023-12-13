@@ -238,7 +238,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000022888, y: -82}
+  m_AnchoredPosition: {x: -0.000022888, y: -99.000015}
   m_SizeDelta: {x: 70, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &174164495
@@ -532,7 +532,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 2522a662498db0745ab634218d1ca559, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 816b9a501f39e2a42b2687d21afb2b0e, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -656,7 +656,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 114.99995, y: -81.99999}
+  m_AnchoredPosition: {x: 114.99995, y: -99.000015}
   m_SizeDelta: {x: 70, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &406135747
@@ -1067,7 +1067,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -108.7, y: 35}
+  m_AnchoredPosition: {x: -108.7, y: 18}
   m_SizeDelta: {x: 70, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &611674171
@@ -1426,7 +1426,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -115, y: -82}
+  m_AnchoredPosition: {x: -115, y: -99.000015}
   m_SizeDelta: {x: 70, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &949884063
@@ -1630,8 +1630,8 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -1639,7 +1639,7 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_enableWordWrapping: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
@@ -1876,15 +1876,15 @@ MonoBehaviour:
     CorrectAnswer: 5
     correctAudioClip: {fileID: 8300000, guid: e0f07d08ec8ef074eb82d24a9cd2569b, type: 3}
     wrongAnswerIndex1: 1
-    wrongAudioClip1: {fileID: 0}
+    wrongAudioClip1: {fileID: 8300000, guid: a95dfe41b5034184eaf4df557e71f4e8, type: 3}
     wrongAnswerIndex2: 2
-    wrongAudioClip2: {fileID: 0}
+    wrongAudioClip2: {fileID: 8300000, guid: a95dfe41b5034184eaf4df557e71f4e8, type: 3}
     wrongAnswerIndex3: 3
-    wrongAudioClip3: {fileID: 0}
+    wrongAudioClip3: {fileID: 8300000, guid: a95dfe41b5034184eaf4df557e71f4e8, type: 3}
     wrongAnswerIndex4: 4
-    wrongAudioClip4: {fileID: 0}
+    wrongAudioClip4: {fileID: 8300000, guid: 2283d90456843784cbdd6bfedcf669f3, type: 3}
     wrongAnswerIndex5: 6
-    wrongAudioClip5: {fileID: 0}
+    wrongAudioClip5: {fileID: 8300000, guid: fcf967dc51c2c1b4d85303e71d259843, type: 3}
   - Question: Manakah sandal warna biru?
     questionAudioClip: {fileID: 8300000, guid: 38dbe884de7325149bff094b5cc3e463, type: 3}
     Answer:
@@ -1895,17 +1895,17 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 7286364295376b247ad708159c6a036b, type: 3}
     - {fileID: 21300000, guid: f4108e6e006898443abaa7ccaf7c67b8, type: 3}
     CorrectAnswer: 3
-    correctAudioClip: {fileID: 8300000, guid: e0f07d08ec8ef074eb82d24a9cd2569b, type: 3}
+    correctAudioClip: {fileID: 8300000, guid: efe759194e3e4a74d98ef2ed2f909d13, type: 3}
     wrongAnswerIndex1: 1
-    wrongAudioClip1: {fileID: 0}
+    wrongAudioClip1: {fileID: 8300000, guid: a95dfe41b5034184eaf4df557e71f4e8, type: 3}
     wrongAnswerIndex2: 2
-    wrongAudioClip2: {fileID: 0}
+    wrongAudioClip2: {fileID: 8300000, guid: 6b4cc8fb1460ac54b9d14225a624b49f, type: 3}
     wrongAnswerIndex3: 4
-    wrongAudioClip3: {fileID: 0}
+    wrongAudioClip3: {fileID: 8300000, guid: a95dfe41b5034184eaf4df557e71f4e8, type: 3}
     wrongAnswerIndex4: 5
-    wrongAudioClip4: {fileID: 0}
+    wrongAudioClip4: {fileID: 8300000, guid: a95dfe41b5034184eaf4df557e71f4e8, type: 3}
     wrongAnswerIndex5: 6
-    wrongAudioClip5: {fileID: 0}
+    wrongAudioClip5: {fileID: 8300000, guid: a95dfe41b5034184eaf4df557e71f4e8, type: 3}
   - Question: Manakah sandal warna hijau?
     questionAudioClip: {fileID: 8300000, guid: da208a7500bbd89418d3f1a53ef0f099, type: 3}
     Answer:
@@ -1916,17 +1916,17 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 50e3b0bb03df0a6489ff1e6c0b41e8e6, type: 3}
     - {fileID: 21300000, guid: 4562eb9a8089e4d47a56d84d0ed03595, type: 3}
     CorrectAnswer: 6
-    correctAudioClip: {fileID: 8300000, guid: e0f07d08ec8ef074eb82d24a9cd2569b, type: 3}
+    correctAudioClip: {fileID: 8300000, guid: 80bf13c0504336a459b7f0e63cf22fbf, type: 3}
     wrongAnswerIndex1: 1
-    wrongAudioClip1: {fileID: 0}
+    wrongAudioClip1: {fileID: 8300000, guid: a95dfe41b5034184eaf4df557e71f4e8, type: 3}
     wrongAnswerIndex2: 2
-    wrongAudioClip2: {fileID: 0}
+    wrongAudioClip2: {fileID: 8300000, guid: a95dfe41b5034184eaf4df557e71f4e8, type: 3}
     wrongAnswerIndex3: 3
-    wrongAudioClip3: {fileID: 0}
+    wrongAudioClip3: {fileID: 8300000, guid: a95dfe41b5034184eaf4df557e71f4e8, type: 3}
     wrongAnswerIndex4: 4
-    wrongAudioClip4: {fileID: 0}
+    wrongAudioClip4: {fileID: 8300000, guid: a95dfe41b5034184eaf4df557e71f4e8, type: 3}
     wrongAnswerIndex5: 5
-    wrongAudioClip5: {fileID: 0}
+    wrongAudioClip5: {fileID: 8300000, guid: 86a093d71ddf0984a81d94b2de3e7a59, type: 3}
   option:
   - {fileID: 611674169}
   - {fileID: 2100967847}
@@ -2675,9 +2675,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 932350271}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-        m_MethodName: Play
+      - m_Target: {fileID: 1081207014}
+        m_TargetAssemblyTypeName: QuizManager3, Assembly-CSharp
+        m_MethodName: QuestionSound
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3226,7 +3226,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 115, y: 35}
+  m_AnchoredPosition: {x: 115, y: 17.99998}
   m_SizeDelta: {x: 70, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1901584542
@@ -3452,7 +3452,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000013828, y: 35}
+  m_AnchoredPosition: {x: -0.000013828, y: 17.99998}
   m_SizeDelta: {x: 70, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2100967850

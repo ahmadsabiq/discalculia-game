@@ -63,7 +63,7 @@ public class QuizManagerB : MonoBehaviour
         src.clip = Clip;
         src.Play();
         QnA.RemoveAt(currentQuestion);
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(3.5f);
         generateQuestion();
     }
 

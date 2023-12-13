@@ -59,7 +59,7 @@ public class GameController : MonoBehaviour
         questionText.text = "Perhatikan urutan lampu yang menyala!";
         buttonRepeat.interactable = false;
         buttonJawab.interactable = false;
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(2f);
         for (int i = 0; i < 2; i++)
         {
             yield return new WaitForSeconds(1f);

@@ -71,7 +71,7 @@ public class QuizManager2 : MonoBehaviour
         src.clip = Clip;
         src.Play();
         QnA.RemoveAt(currentQuestion); // This scene will remove the current game scene
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(3.5f);
         generateQuestion(); // then generating the next question scene
         // totalAtt();
     }

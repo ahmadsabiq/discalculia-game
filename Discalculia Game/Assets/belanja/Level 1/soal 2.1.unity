@@ -487,8 +487,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: ae55887d66fe84e4ea198ace9957978b, type: 3}
-  m_PlayOnAwake: 0
+  m_audioClip: {fileID: 8300000, guid: 44b440fccb387ff4f9d4b4715b207631, type: 3}
+  m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -1151,7 +1151,6 @@ MonoBehaviour:
   rightSound: {fileID: 224577961}
   AnsPanel: {fileID: 1174473550}
   GOpanel: {fileID: 407926053}
-  tittle: Belanja
   level: Satu
   question: Kedua
 --- !u!1 &241935480
@@ -1485,7 +1484,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: ae55887d66fe84e4ea198ace9957978b, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 3fbde28304c24154fab14764ea10dee9, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -2132,7 +2131,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: ae55887d66fe84e4ea198ace9957978b, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 44b440fccb387ff4f9d4b4715b207631, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1

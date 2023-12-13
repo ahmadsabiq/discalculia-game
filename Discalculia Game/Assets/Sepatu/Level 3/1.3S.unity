@@ -406,8 +406,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -109, y: -91}
-  m_SizeDelta: {x: 70, y: 70}
+  m_AnchoredPosition: {x: -140, y: -110}
+  m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &611674171
 MonoBehaviour:
@@ -1552,7 +1552,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Mana sepatu yang cocok untuk kaki tersebut?
+  m_text: Manakah sepatu yang cocok untuk kaki tersebut?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1674,45 +1674,45 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QnA:
-  - Question: Mana sepatu yang cocok untuk kaki tersebut?
-    spriteQuestion: {fileID: 21300000, guid: ffd8f5aec51b61b4cab82f368c397977, type: 3}
+  - Question: Manakah sandal yang cocok untuk kaki tersebut?
+    spriteQuestion: {fileID: 21300000, guid: 5b72f97e744e2cd469c835d6ffd708a1, type: 3}
+    questionAudioClip: {fileID: 8300000, guid: 4661c9a85e60caf4fa307af1edebd84b, type: 3}
+    Answer:
+    - {fileID: 21300000, guid: 50e3b0bb03df0a6489ff1e6c0b41e8e6, type: 3}
+    - {fileID: 21300000, guid: 50e3b0bb03df0a6489ff1e6c0b41e8e6, type: 3}
+    - {fileID: 21300000, guid: 50e3b0bb03df0a6489ff1e6c0b41e8e6, type: 3}
+    CorrectAnswer: 2
+    correctAudioClip: {fileID: 8300000, guid: e75332d74344b534d9ef252ddef160c7, type: 3}
+    wrongAnswerIndex1: 1
+    wrongAudioClip1: {fileID: 8300000, guid: c8392c470bbe4214e8f0aa9b28971704, type: 3}
+    wrongAnswerIndex2: 3
+    wrongAudioClip2: {fileID: 8300000, guid: c8392c470bbe4214e8f0aa9b28971704, type: 3}
+  - Question: Manakah sepatu yang cocok untuk kaki tersebut?
+    spriteQuestion: {fileID: 21300000, guid: 8037d5a02374d384bbb8b291a1aac69b, type: 3}
     questionAudioClip: {fileID: 8300000, guid: 9b41e22fb8c3ca14eb4070f044a111b7, type: 3}
     Answer:
     - {fileID: 21300000, guid: a4a78de43ebcdf945962038f37b870c8, type: 3}
     - {fileID: 21300000, guid: a4a78de43ebcdf945962038f37b870c8, type: 3}
     - {fileID: 21300000, guid: a4a78de43ebcdf945962038f37b870c8, type: 3}
     CorrectAnswer: 3
-    correctAudioClip: {fileID: 8300000, guid: a95dfe41b5034184eaf4df557e71f4e8, type: 3}
+    correctAudioClip: {fileID: 8300000, guid: fecf9c5bc413fe0448ce64caea42b569, type: 3}
     wrongAnswerIndex1: 1
-    wrongAudioClip1: {fileID: 8300000, guid: 3332fa2b2fb8228439f608c9c08a6680, type: 3}
+    wrongAudioClip1: {fileID: 8300000, guid: cf18c0ab812f360438bb369b1af44d1b, type: 3}
     wrongAnswerIndex2: 2
-    wrongAudioClip2: {fileID: 8300000, guid: a50dbe9cf1b33a94f9d017d4628f309d, type: 3}
-  - Question: Mana sepatu yang cocok untuk kaki tersebut?
-    spriteQuestion: {fileID: 21300000, guid: dca9a153d348e9c4395a2975740acf5c, type: 3}
-    questionAudioClip: {fileID: 8300000, guid: 9b41e22fb8c3ca14eb4070f044a111b7, type: 3}
+    wrongAudioClip2: {fileID: 8300000, guid: cf18c0ab812f360438bb369b1af44d1b, type: 3}
+  - Question: Manakah sandal yang cocok untuk kaki tersebut?
+    spriteQuestion: {fileID: 21300000, guid: d9c5de1f3cbdeac4b9862ba5ddc5de68, type: 3}
+    questionAudioClip: {fileID: 8300000, guid: 4661c9a85e60caf4fa307af1edebd84b, type: 3}
     Answer:
-    - {fileID: 21300000, guid: 50e3b0bb03df0a6489ff1e6c0b41e8e6, type: 3}
-    - {fileID: 21300000, guid: 50e3b0bb03df0a6489ff1e6c0b41e8e6, type: 3}
-    - {fileID: 21300000, guid: 50e3b0bb03df0a6489ff1e6c0b41e8e6, type: 3}
+    - {fileID: 21300000, guid: 4562eb9a8089e4d47a56d84d0ed03595, type: 3}
+    - {fileID: 21300000, guid: 4562eb9a8089e4d47a56d84d0ed03595, type: 3}
+    - {fileID: 21300000, guid: 4562eb9a8089e4d47a56d84d0ed03595, type: 3}
     CorrectAnswer: 1
-    correctAudioClip: {fileID: 8300000, guid: 3332fa2b2fb8228439f608c9c08a6680, type: 3}
+    correctAudioClip: {fileID: 8300000, guid: e75332d74344b534d9ef252ddef160c7, type: 3}
     wrongAnswerIndex1: 2
-    wrongAudioClip1: {fileID: 8300000, guid: 3332fa2b2fb8228439f608c9c08a6680, type: 3}
-    wrongAnswerIndex2: 3
-    wrongAudioClip2: {fileID: 8300000, guid: a50dbe9cf1b33a94f9d017d4628f309d, type: 3}
-  - Question: Mana sepatu yang cocok untuk kaki tersebut?
-    spriteQuestion: {fileID: 21300000, guid: 36b51f2e3c8531b49a74a64b085b314e, type: 3}
-    questionAudioClip: {fileID: 8300000, guid: 9b41e22fb8c3ca14eb4070f044a111b7, type: 3}
-    Answer:
-    - {fileID: 21300000, guid: 4562eb9a8089e4d47a56d84d0ed03595, type: 3}
-    - {fileID: 21300000, guid: 4562eb9a8089e4d47a56d84d0ed03595, type: 3}
-    - {fileID: 21300000, guid: 4562eb9a8089e4d47a56d84d0ed03595, type: 3}
-    CorrectAnswer: 2
-    correctAudioClip: {fileID: 8300000, guid: 3332fa2b2fb8228439f608c9c08a6680, type: 3}
-    wrongAnswerIndex1: 1
     wrongAudioClip1: {fileID: 8300000, guid: a95dfe41b5034184eaf4df557e71f4e8, type: 3}
     wrongAnswerIndex2: 3
-    wrongAudioClip2: {fileID: 8300000, guid: a50dbe9cf1b33a94f9d017d4628f309d, type: 3}
+    wrongAudioClip2: {fileID: 8300000, guid: a95dfe41b5034184eaf4df557e71f4e8, type: 3}
   option:
   - {fileID: 611674169}
   - {fileID: 2100967847}
@@ -1759,10 +1759,10 @@ RectTransform:
   - {fileID: 855197127}
   - {fileID: 965154800}
   - {fileID: 1515939313}
+  - {fileID: 2075047214}
   - {fileID: 611674170}
   - {fileID: 2100967848}
   - {fileID: 1901584540}
-  - {fileID: 2075047214}
   m_Father: {fileID: 1587008630}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1853,7 +1853,7 @@ GameObject:
   - component: {fileID: 1396923791}
   - component: {fileID: 1396923790}
   m_Layer: 0
-  m_Name: Blue Slipper
+  m_Name: Img
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1877,7 +1877,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -0.0000076293945}
-  m_SizeDelta: {x: 50, y: 50}
+  m_SizeDelta: {x: 70, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1396923790
 MonoBehaviour:
@@ -1929,7 +1929,7 @@ GameObject:
   - component: {fileID: 1470712884}
   - component: {fileID: 1470712883}
   m_Layer: 5
-  m_Name: Green Slipper
+  m_Name: Img
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1952,8 +1952,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0.00000095367}
-  m_SizeDelta: {x: 130, y: 130}
+  m_AnchoredPosition: {x: -0.000024796, y: 0.0000015085}
+  m_SizeDelta: {x: 250, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1470712883
 MonoBehaviour:
@@ -2278,7 +2278,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 2522a662498db0745ab634218d1ca559, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 3fbde28304c24154fab14764ea10dee9, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -2490,7 +2490,7 @@ GameObject:
   - component: {fileID: 1891367364}
   - component: {fileID: 1891367363}
   m_Layer: 5
-  m_Name: Red Slipper
+  m_Name: Img
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2513,8 +2513,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0.0000076293945}
-  m_SizeDelta: {x: 90, y: 90}
+  m_AnchoredPosition: {x: 0, y: -7}
+  m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1891367363
 MonoBehaviour:
@@ -2592,8 +2592,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 121.61, y: -91}
-  m_SizeDelta: {x: 70, y: 70}
+  m_AnchoredPosition: {x: 177.85, y: -113}
+  m_SizeDelta: {x: 250, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1901584542
 MonoBehaviour:
@@ -2777,8 +2777,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.85, y: 94}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 2.85, y: 109}
+  m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2100967847
 GameObject:
@@ -2818,8 +2818,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.8499947, y: -91}
-  m_SizeDelta: {x: 70, y: 70}
+  m_AnchoredPosition: {x: 2.8499947, y: -101}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2100967850
 MonoBehaviour:

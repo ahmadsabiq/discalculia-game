@@ -292,7 +292,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.909804, g: 0.90196085, b: 0.86274517, a: 1}
+  m_Color: {r: 0.909804, g: 0.90196085, b: 0.86274517, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -355,7 +355,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Mana sendal yang lebih besar?
+  m_text: Mana sandal yang lebih besar?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -382,15 +382,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 24
+  m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -398,7 +398,7 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_enableWordWrapping: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
@@ -449,7 +449,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -24, y: 74.922}
+  m_AnchoredPosition: {x: -0.0000019073, y: 82.399}
   m_SizeDelta: {x: 424.91, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &72730912
@@ -573,11 +573,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 72730912}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -238.65016, y: -54.259026, z: -3.4342377}
-  m_LocalScale: {x: 0.9540846, y: 0.9540846, z: 0.9540846}
+  m_LocalPosition: {x: -238.65018, y: -54.259026, z: -3.4342377}
+  m_LocalScale: {x: 0.95408463, y: 0.95408463, z: 0.95408463}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1427196028}
+  m_Father: {fileID: 1168592030}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &105081430
@@ -810,7 +810,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 122461030}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -1698,7 +1698,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.909804, g: 0.90196085, b: 0.86274517, a: 1}
+  m_Color: {r: 0.9490196, g: 0.9372549, b: 0.8745098, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2001,7 +2001,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.909804, g: 0.90196085, b: 0.86274517, a: 1}
+  m_Color: {r: 0.9490196, g: 0.9372549, b: 0.8745098, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2039,6 +2039,7 @@ GameObject:
   - component: {fileID: 1168592033}
   - component: {fileID: 1168592032}
   - component: {fileID: 1168592031}
+  - component: {fileID: 1168592035}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -2057,7 +2058,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 72730914}
   m_Father: {fileID: 1427196028}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2093,7 +2095,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isCorrect: 0
-  quizManager: {fileID: 0}
+  quizManager: {fileID: 1756998576}
   sound: {fileID: 0}
 --- !u!114 &1168592033
 MonoBehaviour:
@@ -2133,6 +2135,62 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1168592029}
   m_CullTransparentMesh: 1
+--- !u!114 &1168592035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1168592029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1168592033}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1756998576}
+        m_TargetAssemblyTypeName: QuizManagerB, Assembly-CSharp
+        m_MethodName: QuestionSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1374578274
 GameObject:
   m_ObjectHideFlags: 0
@@ -2231,7 +2289,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.909804, g: 0.90196085, b: 0.86274517, a: 1}
+  m_Color: {r: 0.9490196, g: 0.9372549, b: 0.8745098, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2289,7 +2347,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1168592030}
-  - {fileID: 72730914}
   m_Father: {fileID: 122461031}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2463,7 +2520,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.909804, g: 0.90196085, b: 0.86274517, a: 1}
+  m_Color: {r: 0.9490196, g: 0.9372549, b: 0.8745098, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2613,7 +2670,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.909804, g: 0.90196085, b: 0.86274517, a: 1}
+  m_Color: {r: 0.15686275, g: 0.15686275, b: 0.15686275, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2763,7 +2820,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.909804, g: 0.90196085, b: 0.86274517, a: 1}
+  m_Color: {r: 0.909804, g: 0.90196085, b: 0.86274517, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2818,42 +2875,42 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QnA:
-  - Question: Mana sepatu yang paling besar?
-    quesAudio: {fileID: 8300000, guid: ae55887d66fe84e4ea198ace9957978b, type: 3}
+  - Question: Manakah sepatu yang paling besar?
+    quesAudio: {fileID: 8300000, guid: 637b1ab934f86024eab69ef19ec1c630, type: 3}
     Answer:
     - {fileID: 21300000, guid: 96ab1e8e3fcd0e445901cf0b77bf89c6, type: 3}
     - {fileID: 21300000, guid: 551ff1a89235d4541b4750fbfd208633, type: 3}
     - {fileID: 21300000, guid: db4b479f7e2d59c4aa449908c4689734, type: 3}
     CorrectAnswer: 3
-    correctAudio: {fileID: 8300000, guid: dbbb487ad1e060e4e90b0045e82abd45, type: 3}
+    correctAudio: {fileID: 8300000, guid: b14008623b281f44893fef50733667bd, type: 3}
     WrongAnswer1: 1
-    incorrectAudio1: {fileID: 8300000, guid: 4e60a37bc1ed4b349bdf62af9978d21b, type: 3}
+    incorrectAudio1: {fileID: 8300000, guid: cf18c0ab812f360438bb369b1af44d1b, type: 3}
     WrongAnswer2: 2
-    incorrectAudio2: {fileID: 8300000, guid: 4e60a37bc1ed4b349bdf62af9978d21b, type: 3}
-  - Question: Mana sendal yang paling kecil?
-    quesAudio: {fileID: 8300000, guid: 2522a662498db0745ab634218d1ca559, type: 3}
+    incorrectAudio2: {fileID: 8300000, guid: cf18c0ab812f360438bb369b1af44d1b, type: 3}
+  - Question: Manakah sandal yang paling kecil?
+    quesAudio: {fileID: 8300000, guid: 62d21dd5825f50040b0e1c17395fef7a, type: 3}
     Answer:
     - {fileID: 21300000, guid: f580d55ea49896044bb17e35734fe5a4, type: 3}
     - {fileID: 21300000, guid: 908e1822758803b48aa5ae848cd59c80, type: 3}
     - {fileID: 21300000, guid: a21e9ee476d9e8e4793d4197c77dd4b5, type: 3}
     CorrectAnswer: 1
-    correctAudio: {fileID: 8300000, guid: dbbb487ad1e060e4e90b0045e82abd45, type: 3}
+    correctAudio: {fileID: 8300000, guid: 46af69f6506e6dc47b87a3969cf87b98, type: 3}
     WrongAnswer1: 2
-    incorrectAudio1: {fileID: 8300000, guid: 4e60a37bc1ed4b349bdf62af9978d21b, type: 3}
+    incorrectAudio1: {fileID: 8300000, guid: 18568674ed68544478f448988a35d88b, type: 3}
     WrongAnswer2: 3
-    incorrectAudio2: {fileID: 8300000, guid: 4e60a37bc1ed4b349bdf62af9978d21b, type: 3}
-  - Question: Mana sendal yang paling besar?
-    quesAudio: {fileID: 8300000, guid: 6d436ec0d95080744b9840b2fc9cf22d, type: 3}
+    incorrectAudio2: {fileID: 8300000, guid: 232561a01a7e10b448abb70eb3b22da4, type: 3}
+  - Question: Manakah sandal yang paling besar?
+    quesAudio: {fileID: 8300000, guid: 099b841e34eb9aa419b8870f931783db, type: 3}
     Answer:
     - {fileID: 21300000, guid: ada016a04664af140bd80065bc9ea4ce, type: 3}
     - {fileID: 21300000, guid: 4bc5af207ffe3f34fb6d010d8f558098, type: 3}
     - {fileID: 21300000, guid: 5f7492b6625132c419a404321a9b0d69, type: 3}
     CorrectAnswer: 3
-    correctAudio: {fileID: 8300000, guid: dbbb487ad1e060e4e90b0045e82abd45, type: 3}
+    correctAudio: {fileID: 8300000, guid: ad92229aaea9bac46954f48b3e91ec67, type: 3}
     WrongAnswer1: 1
-    incorrectAudio1: {fileID: 8300000, guid: 4e60a37bc1ed4b349bdf62af9978d21b, type: 3}
+    incorrectAudio1: {fileID: 8300000, guid: a95dfe41b5034184eaf4df557e71f4e8, type: 3}
     WrongAnswer2: 2
-    incorrectAudio2: {fileID: 8300000, guid: 4e60a37bc1ed4b349bdf62af9978d21b, type: 3}
+    incorrectAudio2: {fileID: 8300000, guid: a95dfe41b5034184eaf4df557e71f4e8, type: 3}
   option:
   - {fileID: 1486635595}
   - {fileID: 60902318}
@@ -3003,7 +3060,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 2522a662498db0745ab634218d1ca559, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 816b9a501f39e2a42b2687d21afb2b0e, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1

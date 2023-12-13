@@ -1144,9 +1144,9 @@ MonoBehaviour:
     CorrectAnswer: 2
     correctAudioClip: {fileID: 8300000, guid: 0cbb189e01a70ff45a528504daef6292, type: 3}
     wrongAnswerIndex1: 1
-    wrongAudioClip1: {fileID: 8300000, guid: a2729f464b8918d4fba3a6240ed7369f, type: 3}
+    wrongAudioClip1: {fileID: 8300000, guid: a95dfe41b5034184eaf4df557e71f4e8, type: 3}
     wrongAnswerIndex2: 3
-    wrongAudioClip2: {fileID: 8300000, guid: 3332fa2b2fb8228439f608c9c08a6680, type: 3}
+    wrongAudioClip2: {fileID: 8300000, guid: d47d03a7647049c4086aee032a8edb91, type: 3}
   - Question: Manakah sandal warna biru?
     questionAudioClip: {fileID: 8300000, guid: 38dbe884de7325149bff094b5cc3e463, type: 3}
     Answer:
@@ -1156,9 +1156,9 @@ MonoBehaviour:
     CorrectAnswer: 3
     correctAudioClip: {fileID: 8300000, guid: efe759194e3e4a74d98ef2ed2f909d13, type: 3}
     wrongAnswerIndex1: 1
-    wrongAudioClip1: {fileID: 8300000, guid: 3332fa2b2fb8228439f608c9c08a6680, type: 3}
+    wrongAudioClip1: {fileID: 8300000, guid: a95dfe41b5034184eaf4df557e71f4e8, type: 3}
     wrongAnswerIndex2: 2
-    wrongAudioClip2: {fileID: 8300000, guid: a50dbe9cf1b33a94f9d017d4628f309d, type: 3}
+    wrongAudioClip2: {fileID: 8300000, guid: 6b4cc8fb1460ac54b9d14225a624b49f, type: 3}
   - Question: Manakah sandal warna hijau?
     questionAudioClip: {fileID: 8300000, guid: da208a7500bbd89418d3f1a53ef0f099, type: 3}
     Answer:
@@ -1168,7 +1168,7 @@ MonoBehaviour:
     CorrectAnswer: 1
     correctAudioClip: {fileID: 8300000, guid: 80bf13c0504336a459b7f0e63cf22fbf, type: 3}
     wrongAnswerIndex1: 2
-    wrongAudioClip1: {fileID: 8300000, guid: 3332fa2b2fb8228439f608c9c08a6680, type: 3}
+    wrongAudioClip1: {fileID: 8300000, guid: 86a093d71ddf0984a81d94b2de3e7a59, type: 3}
     wrongAnswerIndex2: 3
     wrongAudioClip2: {fileID: 8300000, guid: a95dfe41b5034184eaf4df557e71f4e8, type: 3}
   option:
@@ -1327,7 +1327,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 2522a662498db0745ab634218d1ca559, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 816b9a501f39e2a42b2687d21afb2b0e, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
