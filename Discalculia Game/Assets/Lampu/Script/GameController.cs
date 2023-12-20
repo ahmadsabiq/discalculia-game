@@ -28,6 +28,8 @@ public class GameController : MonoBehaviour
     public AudioSource repeatSfx;
     public AudioClip sfx;
 
+    public AudioSource audioSound;
+
     private int numAttempt = 0;
 
     private string nama = "User";
@@ -118,6 +120,7 @@ public class GameController : MonoBehaviour
     public void Repeat()
     {
         StartCoroutine(QuestionLamps());
+        audioSound.Play();
         Debug.Log("Button Clicked");
         totalAtt();
     }
