@@ -355,7 +355,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Mana sandal yang lebih besar?
+  m_text: Manakah sandal yang lebih besar?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5aa59510a37296041a19cf82153827ae, type: 2}
   m_sharedMaterial: {fileID: -8014326901892523945, guid: 5aa59510a37296041a19cf82153827ae, type: 2}
@@ -2352,7 +2352,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 213, y: 82.39902}
+  m_AnchoredPosition: {x: 230.42, y: 82.39902}
   m_SizeDelta: {x: 35.9339, y: 32.954}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!82 &1427196029
