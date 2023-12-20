@@ -382,7 +382,7 @@ GameObject:
   - component: {fileID: 611674171}
   - component: {fileID: 611674175}
   m_Layer: 5
-  m_Name: Button1
+  m_Name: Button2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -406,7 +406,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -140, y: -110}
+  m_AnchoredPosition: {x: -46, y: -110}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &611674171
@@ -518,6 +518,82 @@ MonoBehaviour:
   quizManager: {fileID: 1081207014}
   isCorrect: 0
   sound: {fileID: 0}
+--- !u!1 &629357158
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 629357159}
+  - component: {fileID: 629357161}
+  - component: {fileID: 629357160}
+  m_Layer: 5
+  m_Name: Img
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!224 &629357159
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 629357158}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1469263600}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -7}
+  m_SizeDelta: {x: 150, y: 150}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &629357160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 629357158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 1
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &629357161
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 629357158}
+  m_CullTransparentMesh: 1
 --- !u!1 &659518554
 GameObject:
   m_ObjectHideFlags: 0
@@ -781,7 +857,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f5cda4f8e775eb0439ef93c355745ce5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b89381a155b13e14d8b06a5938984460, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1062,7 +1138,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1f8b15ba7a4893d4fbb29a9b55187179, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8630f171f028895408c6db157336aa37, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1211,7 +1287,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 2.3S
+          m_StringArgument: Menu Sepatu
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &855197131
@@ -1529,8 +1605,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.6500244, y: 5.0016336}
-  m_SizeDelta: {x: 316.5253, y: 31.2708}
+  m_AnchoredPosition: {x: -0.000011444, y: 23}
+  m_SizeDelta: {x: 397.7599, y: 31.2708}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &965154801
 MonoBehaviour:
@@ -1552,10 +1628,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Manakah sepatu yang cocok untuk kaki tersebut?
+  m_text: Manakah sepatu yang ukurannya sesuai dengan kaki tersebut?
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5aa59510a37296041a19cf82153827ae, type: 2}
+  m_sharedMaterial: {fileID: -8014326901892523945, guid: 5aa59510a37296041a19cf82153827ae, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1674,46 +1750,56 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QnA:
-  - Question: Manakah sandal yang cocok untuk kaki tersebut?
-    spriteQuestion: {fileID: 21300000, guid: 5b72f97e744e2cd469c835d6ffd708a1, type: 3}
-    questionAudioClip: {fileID: 8300000, guid: 4661c9a85e60caf4fa307af1edebd84b, type: 3}
+  - Question: Manakah sandal yang ukurannya sesuai dengan kaki tersebut?
+    spriteQuestion: {fileID: 21300000, guid: d9c5de1f3cbdeac4b9862ba5ddc5de68, type: 3}
+    questionAudioClip: {fileID: 8300000, guid: 7a51d38245632ff44b435adf1f5a7bc3, type: 3}
     Answer:
+    - {fileID: 21300000, guid: 46b5a3b6fe9e2b5469961ca08d6988a4, type: 3}
     - {fileID: 21300000, guid: 50e3b0bb03df0a6489ff1e6c0b41e8e6, type: 3}
-    - {fileID: 21300000, guid: 50e3b0bb03df0a6489ff1e6c0b41e8e6, type: 3}
-    - {fileID: 21300000, guid: 50e3b0bb03df0a6489ff1e6c0b41e8e6, type: 3}
+    - {fileID: 21300000, guid: 955f2932a12661646ba037f86f335b66, type: 3}
+    - {fileID: 21300000, guid: 8d99beecd273d0948bed52ff2f4bfd3b, type: 3}
     CorrectAnswer: 2
-    correctAudioClip: {fileID: 8300000, guid: e75332d74344b534d9ef252ddef160c7, type: 3}
+    correctAudioClip: {fileID: 8300000, guid: 016edef8ac662bd44a77b20fccf7c650, type: 3}
     wrongAnswerIndex1: 1
-    wrongAudioClip1: {fileID: 8300000, guid: c8392c470bbe4214e8f0aa9b28971704, type: 3}
+    wrongAudioClip1: {fileID: 8300000, guid: e5345cf805f537745bef150d2b73e0fc, type: 3}
     wrongAnswerIndex2: 3
-    wrongAudioClip2: {fileID: 8300000, guid: c8392c470bbe4214e8f0aa9b28971704, type: 3}
-  - Question: Manakah sepatu yang cocok untuk kaki tersebut?
-    spriteQuestion: {fileID: 21300000, guid: 8037d5a02374d384bbb8b291a1aac69b, type: 3}
-    questionAudioClip: {fileID: 8300000, guid: 9b41e22fb8c3ca14eb4070f044a111b7, type: 3}
+    wrongAudioClip2: {fileID: 8300000, guid: e5345cf805f537745bef150d2b73e0fc, type: 3}
+    wrongAnswerIndex3: 4
+    wrongAudioClip3: {fileID: 8300000, guid: e5345cf805f537745bef150d2b73e0fc, type: 3}
+  - Question: Manakah sepatu yang ukurannya sesuai dengan kaki tersebut?
+    spriteQuestion: {fileID: 21300000, guid: 5b72f97e744e2cd469c835d6ffd708a1, type: 3}
+    questionAudioClip: {fileID: 8300000, guid: 29fa35ef8ab2e834fa6e1a3e415db4d7, type: 3}
     Answer:
-    - {fileID: 21300000, guid: a4a78de43ebcdf945962038f37b870c8, type: 3}
-    - {fileID: 21300000, guid: a4a78de43ebcdf945962038f37b870c8, type: 3}
+    - {fileID: 21300000, guid: ee314ce74416dfb4e8b087e4b0551f11, type: 3}
+    - {fileID: 21300000, guid: 46b5a3b6fe9e2b5469961ca08d6988a4, type: 3}
+    - {fileID: 21300000, guid: f4108e6e006898443abaa7ccaf7c67b8, type: 3}
     - {fileID: 21300000, guid: a4a78de43ebcdf945962038f37b870c8, type: 3}
     CorrectAnswer: 3
-    correctAudioClip: {fileID: 8300000, guid: fecf9c5bc413fe0448ce64caea42b569, type: 3}
+    correctAudioClip: {fileID: 8300000, guid: 016edef8ac662bd44a77b20fccf7c650, type: 3}
     wrongAnswerIndex1: 1
-    wrongAudioClip1: {fileID: 8300000, guid: cf18c0ab812f360438bb369b1af44d1b, type: 3}
-    wrongAnswerIndex2: 2
-    wrongAudioClip2: {fileID: 8300000, guid: cf18c0ab812f360438bb369b1af44d1b, type: 3}
-  - Question: Manakah sandal yang cocok untuk kaki tersebut?
+    wrongAudioClip1: {fileID: 8300000, guid: e5345cf805f537745bef150d2b73e0fc, type: 3}
+    wrongAnswerIndex2: 4
+    wrongAudioClip2: {fileID: 8300000, guid: e5345cf805f537745bef150d2b73e0fc, type: 3}
+    wrongAnswerIndex3: 2
+    wrongAudioClip3: {fileID: 8300000, guid: e5345cf805f537745bef150d2b73e0fc, type: 3}
+  - Question: Manakah sandal yang ukurannya sesuai dengan kaki tersebut?
     spriteQuestion: {fileID: 21300000, guid: d9c5de1f3cbdeac4b9862ba5ddc5de68, type: 3}
-    questionAudioClip: {fileID: 8300000, guid: 4661c9a85e60caf4fa307af1edebd84b, type: 3}
+    questionAudioClip: {fileID: 8300000, guid: 7a51d38245632ff44b435adf1f5a7bc3, type: 3}
     Answer:
+    - {fileID: 21300000, guid: 7286364295376b247ad708159c6a036b, type: 3}
     - {fileID: 21300000, guid: 4562eb9a8089e4d47a56d84d0ed03595, type: 3}
-    - {fileID: 21300000, guid: 4562eb9a8089e4d47a56d84d0ed03595, type: 3}
-    - {fileID: 21300000, guid: 4562eb9a8089e4d47a56d84d0ed03595, type: 3}
-    CorrectAnswer: 1
-    correctAudioClip: {fileID: 8300000, guid: e75332d74344b534d9ef252ddef160c7, type: 3}
-    wrongAnswerIndex1: 2
-    wrongAudioClip1: {fileID: 8300000, guid: a95dfe41b5034184eaf4df557e71f4e8, type: 3}
+    - {fileID: 21300000, guid: 46b5a3b6fe9e2b5469961ca08d6988a4, type: 3}
+    - {fileID: 21300000, guid: f4108e6e006898443abaa7ccaf7c67b8, type: 3}
+    CorrectAnswer: 2
+    correctAudioClip: {fileID: 8300000, guid: 016edef8ac662bd44a77b20fccf7c650, type: 3}
+    wrongAnswerIndex1: 1
+    wrongAudioClip1: {fileID: 8300000, guid: e5345cf805f537745bef150d2b73e0fc, type: 3}
     wrongAnswerIndex2: 3
-    wrongAudioClip2: {fileID: 8300000, guid: a95dfe41b5034184eaf4df557e71f4e8, type: 3}
+    wrongAudioClip2: {fileID: 8300000, guid: e5345cf805f537745bef150d2b73e0fc, type: 3}
+    wrongAnswerIndex3: 4
+    wrongAudioClip3: {fileID: 8300000, guid: e5345cf805f537745bef150d2b73e0fc, type: 3}
   option:
+  - {fileID: 1469263599}
   - {fileID: 611674169}
   - {fileID: 2100967847}
   - {fileID: 1901584539}
@@ -1760,6 +1846,7 @@ RectTransform:
   - {fileID: 965154800}
   - {fileID: 1515939313}
   - {fileID: 2075047214}
+  - {fileID: 1469263600}
   - {fileID: 611674170}
   - {fileID: 2100967848}
   - {fileID: 1901584540}
@@ -1917,6 +2004,156 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1396923787}
   m_CullTransparentMesh: 1
+--- !u!1 &1469263599
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1469263600}
+  - component: {fileID: 1469263604}
+  - component: {fileID: 1469263603}
+  - component: {fileID: 1469263602}
+  - component: {fileID: 1469263601}
+  m_Layer: 5
+  m_Name: Button1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1469263600
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469263599}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 629357159}
+  m_Father: {fileID: 1121640804}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -184, y: -98}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1469263601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469263599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69a23e12da4a6244fbd75db29123a8f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  quizManager: {fileID: 1081207014}
+  isCorrect: 0
+  sound: {fileID: 0}
+--- !u!114 &1469263602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469263599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1469263603}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1469263601}
+        m_TargetAssemblyTypeName: AnswerScript2, Assembly-CSharp
+        m_MethodName: Answer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1469263603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469263599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1469263604
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469263599}
+  m_CullTransparentMesh: 1
 --- !u!1 &1470712880
 GameObject:
   m_ObjectHideFlags: 0
@@ -1953,7 +2190,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -0.000024796, y: 0.0000015085}
-  m_SizeDelta: {x: 250, y: 250}
+  m_SizeDelta: {x: 70, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1470712883
 MonoBehaviour:
@@ -2030,7 +2267,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 181.94997, y: 5.001604}
+  m_AnchoredPosition: {x: 230.85, y: 21.635}
   m_SizeDelta: {x: 33, y: 34}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1515939314
@@ -2568,7 +2805,7 @@ GameObject:
   - component: {fileID: 1901584542}
   - component: {fileID: 1901584545}
   m_Layer: 5
-  m_Name: Button3
+  m_Name: Button4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2592,7 +2829,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 177.85, y: -113}
+  m_AnchoredPosition: {x: 230.84999, y: -110}
   m_SizeDelta: {x: 250, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1901584542
@@ -2777,8 +3014,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.85, y: 109}
-  m_SizeDelta: {x: 150, y: 150}
+  m_AnchoredPosition: {x: -0.000007391, y: 116.92}
+  m_SizeDelta: {x: 110, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2100967847
 GameObject:
@@ -2794,7 +3031,7 @@ GameObject:
   - component: {fileID: 2100967850}
   - component: {fileID: 2100967853}
   m_Layer: 5
-  m_Name: Button2
+  m_Name: Button3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2818,7 +3055,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.8499947, y: -101}
+  m_AnchoredPosition: {x: 91, y: -98}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2100967850

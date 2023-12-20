@@ -357,8 +357,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Mana sandal yang lebih besar?
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5aa59510a37296041a19cf82153827ae, type: 2}
+  m_sharedMaterial: {fileID: -8014326901892523945, guid: 5aa59510a37296041a19cf82153827ae, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2352,7 +2352,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 216, y: 82.39902}
+  m_AnchoredPosition: {x: 213, y: 82.39902}
   m_SizeDelta: {x: 35.9339, y: 32.954}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!82 &1427196029
@@ -2882,7 +2882,7 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 551ff1a89235d4541b4750fbfd208633, type: 3}
     - {fileID: 21300000, guid: db4b479f7e2d59c4aa449908c4689734, type: 3}
     CorrectAnswer: 3
-    correctAudio: {fileID: 8300000, guid: b14008623b281f44893fef50733667bd, type: 3}
+    correctAudio: {fileID: 8300000, guid: c03207f3f4cc6114992393ac90dc22f9, type: 3}
     WrongAnswer1: 1
     incorrectAudio1: {fileID: 8300000, guid: cf18c0ab812f360438bb369b1af44d1b, type: 3}
     WrongAnswer2: 2
@@ -2894,11 +2894,11 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 908e1822758803b48aa5ae848cd59c80, type: 3}
     - {fileID: 21300000, guid: a21e9ee476d9e8e4793d4197c77dd4b5, type: 3}
     CorrectAnswer: 1
-    correctAudio: {fileID: 8300000, guid: 46af69f6506e6dc47b87a3969cf87b98, type: 3}
+    correctAudio: {fileID: 8300000, guid: 77efaad955cff054d8fcb817ba812da1, type: 3}
     WrongAnswer1: 2
-    incorrectAudio1: {fileID: 8300000, guid: 18568674ed68544478f448988a35d88b, type: 3}
+    incorrectAudio1: {fileID: 8300000, guid: 4d860947e4fe87a4ea3b099404a5eb22, type: 3}
     WrongAnswer2: 3
-    incorrectAudio2: {fileID: 8300000, guid: 232561a01a7e10b448abb70eb3b22da4, type: 3}
+    incorrectAudio2: {fileID: 8300000, guid: 4d860947e4fe87a4ea3b099404a5eb22, type: 3}
   - Question: Manakah sandal yang paling besar?
     quesAudio: {fileID: 8300000, guid: 099b841e34eb9aa419b8870f931783db, type: 3}
     Answer:
@@ -2906,11 +2906,11 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 4bc5af207ffe3f34fb6d010d8f558098, type: 3}
     - {fileID: 21300000, guid: 5f7492b6625132c419a404321a9b0d69, type: 3}
     CorrectAnswer: 3
-    correctAudio: {fileID: 8300000, guid: ad92229aaea9bac46954f48b3e91ec67, type: 3}
+    correctAudio: {fileID: 8300000, guid: 94e0ed50ae74ab049829f0abf1412781, type: 3}
     WrongAnswer1: 1
-    incorrectAudio1: {fileID: 8300000, guid: a95dfe41b5034184eaf4df557e71f4e8, type: 3}
+    incorrectAudio1: {fileID: 8300000, guid: 52ebce1308131f242979482af02cc254, type: 3}
     WrongAnswer2: 2
-    incorrectAudio2: {fileID: 8300000, guid: a95dfe41b5034184eaf4df557e71f4e8, type: 3}
+    incorrectAudio2: {fileID: 8300000, guid: 52ebce1308131f242979482af02cc254, type: 3}
   option:
   - {fileID: 1486635595}
   - {fileID: 60902318}

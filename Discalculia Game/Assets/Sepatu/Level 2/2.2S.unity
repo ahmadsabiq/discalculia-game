@@ -1370,8 +1370,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Manakah sandal yang lebih besar?
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5aa59510a37296041a19cf82153827ae, type: 2}
+  m_sharedMaterial: {fileID: -8014326901892523945, guid: 5aa59510a37296041a19cf82153827ae, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1481,7 +1481,7 @@ MonoBehaviour:
     - {fileID: 21300000, guid: f4108e6e006898443abaa7ccaf7c67b8, type: 3}
     - {fileID: 21300000, guid: f4108e6e006898443abaa7ccaf7c67b8, type: 3}
     CorrectAnswer: 1
-    correctAudio: {fileID: 8300000, guid: 76c5d6fe2df54564d89dd2c19095cf0f, type: 3}
+    correctAudio: {fileID: 8300000, guid: 2002b8127d0078c4e950b8e0952e3da7, type: 3}
     WrongAnswer1: 2
     incorrectAudio1: {fileID: 8300000, guid: e8fb38dd03c68444c861efcbe1498c4b, type: 3}
     WrongAnswer2: 2
@@ -1492,7 +1492,7 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 7286364295376b247ad708159c6a036b, type: 3}
     - {fileID: 21300000, guid: a4a78de43ebcdf945962038f37b870c8, type: 3}
     CorrectAnswer: 2
-    correctAudio: {fileID: 8300000, guid: ba5f2e1ac70baf04db89b8f5bee23ab8, type: 3}
+    correctAudio: {fileID: 8300000, guid: eb7e2fee268641747b88753f06405173, type: 3}
     WrongAnswer1: 1
     incorrectAudio1: {fileID: 8300000, guid: e17a5634c9eb4804a99217df897f0320, type: 3}
     WrongAnswer2: 1
@@ -1503,7 +1503,7 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 8d99beecd273d0948bed52ff2f4bfd3b, type: 3}
     - {fileID: 21300000, guid: 8d99beecd273d0948bed52ff2f4bfd3b, type: 3}
     CorrectAnswer: 1
-    correctAudio: {fileID: 8300000, guid: 76c5d6fe2df54564d89dd2c19095cf0f, type: 3}
+    correctAudio: {fileID: 8300000, guid: 2002b8127d0078c4e950b8e0952e3da7, type: 3}
     WrongAnswer1: 2
     incorrectAudio1: {fileID: 8300000, guid: e8fb38dd03c68444c861efcbe1498c4b, type: 3}
     WrongAnswer2: 2
@@ -1606,7 +1606,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 216, y: 82.39902}
+  m_AnchoredPosition: {x: 226.3, y: 82.39902}
   m_SizeDelta: {x: 35.9339, y: 32.954}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &898935660

@@ -7,6 +7,7 @@ public class Belanja3 : MonoBehaviour
 {
     public int jmlApel, jmlMelon, jmlJeruk;
 
+    private string playerName;
 
     public counter Counter;
     public Button button;
@@ -16,7 +17,7 @@ public class Belanja3 : MonoBehaviour
     public GameObject GOpanel;
     private int numOfRepeats;
 
-    private string nama = "User";
+    public string nama;
     private string tittle = "Belanja";
     public string level;
     public string question;
@@ -28,20 +29,26 @@ public class Belanja3 : MonoBehaviour
         {
             button = GetComponent<Button>();
         }
-           
+
+        playerName = PlayerPrefs.GetString("name");
+        Debug.Log("Player name is: " + playerName);
 
         button.onClick.AddListener(PlayClickSound);
+
     }
 
     public void AddData()
     {
-        StartCoroutine(DatabaseManager.InsertData(nama, numOfRepeats, tittle, level, question));
+        playerName = PlayerPrefs.GetString("name");
+        Debug.Log("Player name is: " + playerName);
+        StartCoroutine(DatabaseManager.InsertData(playerName, numOfRepeats, tittle, level, question));
         Debug.Log("InsertData coroutine called.");
     }
 
     // Update is called once per frame
     public void Update()
     {
+        
     }
 
     public void PlayClickSound()

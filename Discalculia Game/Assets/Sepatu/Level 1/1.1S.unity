@@ -1030,8 +1030,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Manakah sandal warna merah?
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5aa59510a37296041a19cf82153827ae, type: 2}
+  m_sharedMaterial: {fileID: -8014326901892523945, guid: 5aa59510a37296041a19cf82153827ae, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1142,9 +1142,9 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 46b5a3b6fe9e2b5469961ca08d6988a4, type: 3}
     - {fileID: 21300000, guid: 4562eb9a8089e4d47a56d84d0ed03595, type: 3}
     CorrectAnswer: 2
-    correctAudioClip: {fileID: 8300000, guid: 0cbb189e01a70ff45a528504daef6292, type: 3}
+    correctAudioClip: {fileID: 8300000, guid: eecfe6aa6dbae8b46bcf590c0683b139, type: 3}
     wrongAnswerIndex1: 1
-    wrongAudioClip1: {fileID: 8300000, guid: a95dfe41b5034184eaf4df557e71f4e8, type: 3}
+    wrongAudioClip1: {fileID: 8300000, guid: fb8231293f261f045a61ea07fd4ad1a2, type: 3}
     wrongAnswerIndex2: 3
     wrongAudioClip2: {fileID: 8300000, guid: d47d03a7647049c4086aee032a8edb91, type: 3}
   - Question: Manakah sandal warna biru?
@@ -1154,9 +1154,9 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 4562eb9a8089e4d47a56d84d0ed03595, type: 3}
     - {fileID: 21300000, guid: 50e3b0bb03df0a6489ff1e6c0b41e8e6, type: 3}
     CorrectAnswer: 3
-    correctAudioClip: {fileID: 8300000, guid: efe759194e3e4a74d98ef2ed2f909d13, type: 3}
+    correctAudioClip: {fileID: 8300000, guid: dd6b90c9ade674b4499140598e96f1d2, type: 3}
     wrongAnswerIndex1: 1
-    wrongAudioClip1: {fileID: 8300000, guid: a95dfe41b5034184eaf4df557e71f4e8, type: 3}
+    wrongAudioClip1: {fileID: 8300000, guid: edcb928b5f6b20845a6331eb32991818, type: 3}
     wrongAnswerIndex2: 2
     wrongAudioClip2: {fileID: 8300000, guid: 6b4cc8fb1460ac54b9d14225a624b49f, type: 3}
   - Question: Manakah sandal warna hijau?
@@ -1166,11 +1166,11 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 50e3b0bb03df0a6489ff1e6c0b41e8e6, type: 3}
     - {fileID: 21300000, guid: 46b5a3b6fe9e2b5469961ca08d6988a4, type: 3}
     CorrectAnswer: 1
-    correctAudioClip: {fileID: 8300000, guid: 80bf13c0504336a459b7f0e63cf22fbf, type: 3}
+    correctAudioClip: {fileID: 8300000, guid: d11830935d5f65a45b39c71374c02764, type: 3}
     wrongAnswerIndex1: 2
     wrongAudioClip1: {fileID: 8300000, guid: 86a093d71ddf0984a81d94b2de3e7a59, type: 3}
     wrongAnswerIndex2: 3
-    wrongAudioClip2: {fileID: 8300000, guid: a95dfe41b5034184eaf4df557e71f4e8, type: 3}
+    wrongAudioClip2: {fileID: 8300000, guid: 4064a149bd1e23f41a4a79b238506528, type: 3}
   option:
   - {fileID: 611674169}
   - {fileID: 2100967847}
@@ -2061,7 +2061,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 190, y: 47.933}
+  m_AnchoredPosition: {x: 204, y: 49.298}
   m_SizeDelta: {x: 33, y: 34}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1515939314

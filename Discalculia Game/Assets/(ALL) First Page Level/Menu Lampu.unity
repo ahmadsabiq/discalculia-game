@@ -380,8 +380,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -88.232, y: -41.096}
-  m_SizeDelta: {x: 484.9664, y: 278.1252}
+  m_AnchoredPosition: {x: -99, y: -41.096}
+  m_SizeDelta: {x: 484.9664, y: 270.5852}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &956659725
 MonoBehaviour:
@@ -403,40 +403,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Prasyarat (kemampuan dasar yang harus dimiliki):
-
-    - Anak sudah mampu
-    mengidentifikasi warna primer (merah, kuning, biru) dan atau warna sekunder (oranye,
-    hijau, ungu).
-
-
-    Modalitas sensori yang distimulasi:
-
-    - Penglihatan (visual)
-
-    -
-    Pendengaran (auditori)
-
-    - Perabaan (taktil)
-
-    - Gerakan (kinestetik)
-
-
-    Keterampilan
-    yang diasah:
-
-    - Memori Kerja Visual (Visual Working Memory)
-
-    - Memori
-    Kerja Auditori (Auditory Working Memory)
-
-    - Mengurutkan (Sequencing)
-
-    -
-    Ketangkasan Manual (Manual Dexterity)'
+  m_text: "TUTORIAL:\n1. Pada layar akan tampak gambar beberapa lampu beserta saklarnya\r\n2.
+    Lampu akan menyala bergantian dengan 2x pengulangan\n3. Minta anak untuk memperhatikan
+    dengan seksama urutan lampu yang menyala\r\n4. Anak akan diminta untuk menekan
+    tombol berupa gambar saklar lampu sesuai urutan pola lampu yang menyala pada
+    soal\r\n6. Jika anak sudah siap, latihan dimulai dengan menekan tombol \u2018MULAI\u2019\r\n7.
+    Jika jawaban benar, soal akan otomatis berlanjut pada nomor berikutnya\r\n8.
+    Jika jawaban belum tepat, soal akan otomatis diulang hingga anak menjawab benar\r"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5aa59510a37296041a19cf82153827ae, type: 2}
+  m_sharedMaterial: {fileID: -8014326901892523945, guid: 5aa59510a37296041a19cf82153827ae, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -460,8 +436,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 16
-  m_fontSizeBase: 16
+  m_fontSize: 15
+  m_fontSizeBase: 15
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -655,7 +631,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.9490196, g: 0.9372549, b: 0.8745098, a: 0}
+  m_BackGroundColor: {r: 0.9490196, g: 0.9372549, b: 0.8745098, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1182,8 +1158,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000013351, y: 168}
-  m_SizeDelta: {x: 339.73, y: 28.8394}
+  m_AnchoredPosition: {x: 0.000013351, y: 160}
+  m_SizeDelta: {x: 379.4743, y: 28.8394}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2035238711
 MonoBehaviour:
@@ -1207,8 +1183,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Ayo kita nyalakan lampunya ya!
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5aa59510a37296041a19cf82153827ae, type: 2}
+  m_sharedMaterial: {fileID: -8014326901892523945, guid: 5aa59510a37296041a19cf82153827ae, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

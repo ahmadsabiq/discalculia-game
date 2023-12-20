@@ -317,8 +317,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -102, y: -41.780987}
-  m_SizeDelta: {x: 487.387, y: 291.7248}
+  m_AnchoredPosition: {x: -108, y: -31.872}
+  m_SizeDelta: {x: 487.387, y: 223.8647}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &956659725
 MonoBehaviour:
@@ -340,45 +340,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Prasyarat (kemampuan dasar yang harus dimiliki):
-
-    - Anak sudah dapat
-    mengidentifikasi warna primer (merah, kuning, biru)
-
-    - Anak sudah dapat mengidentifikasi
-    objek sehari-hari (sepatu dan sandal)
-
-
-    Modalitas sensori yang distimulasi:
-
-    -
-    Penglihatan (visual)
-
-    - Pendengaran (auditori)
-
-    - Perabaan (taktil)
-
-    -
-    Gerakan (kinestetik)
-
-
-    Keterampilan yang diasah:
-
-    - Membandingkan (komparatif
-    dan superlatif)
-
-    - Pengertian Ukuran (Sense of Size)
-
-    - Memori Kerja
-    Visual (Visual Working Memory)
-
-    - Memori Kerja Auditori (Auditory Working
-    Memory)
-
-    - Ketangkasan Manual (Manual Dexterity)'
+  m_text: "TUTORIAL:\n1. Pada layar akan tampak gambar sepatu/sandal dengan warna
+    atau ukuran yang berbeda\r\n2. Anak diminta untuk membandingkan warna atau ukuran
+    sepatu/sandal yang sesuai soal dengan mengklik sepatu/sandalnya\n3. Jika anak
+    sudah siap, latihan dimulai dengan menekan tombol \u2018MULAI\u2019\r\n4. Jika
+    jawaban benar, soal akan otomatis berlanjut pada nomor berikutnya\r\n5. Jika
+    jawaban belum tepat, soal akan otomatis diulang hingga anak menjawab benar\r"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5aa59510a37296041a19cf82153827ae, type: 2}
+  m_sharedMaterial: {fileID: -8014326901892523945, guid: 5aa59510a37296041a19cf82153827ae, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -597,7 +567,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.9490196, g: 0.9372549, b: 0.8745098, a: 0}
+  m_BackGroundColor: {r: 0.9490196, g: 0.9372549, b: 0.8745098, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1201,7 +1171,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000011444, y: 168}
+  m_AnchoredPosition: {x: -0.000011444, y: 160}
   m_SizeDelta: {x: 217.7069, y: 28.8394}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2035238711
@@ -1226,8 +1196,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Pakai sepatu, Yuk!
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5aa59510a37296041a19cf82153827ae, type: 2}
+  m_sharedMaterial: {fileID: -8014326901892523945, guid: 5aa59510a37296041a19cf82153827ae, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

@@ -122,4 +122,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Belanja/Level 3/soal 3.3.unity
     guid: 5c01339dfb5102a488936edc13cbfc47
+  - enabled: 1
+    path: Assets/Menu/Menu Belanja1.unity
+    guid: 6f4e59cef7c18d2409926a9d59313aac
+  - enabled: 1
+    path: Assets/Menu/Menu Lampu1.unity
+    guid: 05144091185bf8343a07a4acafe39085
+  - enabled: 1
+    path: Assets/Menu/Menu Sepatu1.unity
+    guid: 228c56f9ab3e76646abefe0cca91726a
   m_configObjects: {}

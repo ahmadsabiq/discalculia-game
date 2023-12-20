@@ -1127,10 +1127,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Mana sepatu yang cocok untuk kaki tersebut?
+  m_text: Manakah sepatu yang ukurannya sesuai dengan kaki tersebut?
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5aa59510a37296041a19cf82153827ae, type: 2}
+  m_sharedMaterial: {fileID: -8014326901892523945, guid: 5aa59510a37296041a19cf82153827ae, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1416,45 +1416,51 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QnA:
-  - Question: Mana sepatu yang cocok untuk kaki tersebut?
+  - Question: Manakah sepatu yang ukurannya sesuai dengan kaki tersebut?
     spriteQuestion: {fileID: 21300000, guid: 8037d5a02374d384bbb8b291a1aac69b, type: 3}
-    questionAudioClip: {fileID: 8300000, guid: 9b41e22fb8c3ca14eb4070f044a111b7, type: 3}
+    questionAudioClip: {fileID: 8300000, guid: 29fa35ef8ab2e834fa6e1a3e415db4d7, type: 3}
     Answer:
     - {fileID: 21300000, guid: a4a78de43ebcdf945962038f37b870c8, type: 3}
     - {fileID: 21300000, guid: 955f2932a12661646ba037f86f335b66, type: 3}
     - {fileID: 21300000, guid: f4108e6e006898443abaa7ccaf7c67b8, type: 3}
     CorrectAnswer: 3
-    correctAudioClip: {fileID: 8300000, guid: fecf9c5bc413fe0448ce64caea42b569, type: 3}
+    correctAudioClip: {fileID: 8300000, guid: 016edef8ac662bd44a77b20fccf7c650, type: 3}
     wrongAnswerIndex1: 1
-    wrongAudioClip1: {fileID: 8300000, guid: cf18c0ab812f360438bb369b1af44d1b, type: 3}
+    wrongAudioClip1: {fileID: 8300000, guid: e5345cf805f537745bef150d2b73e0fc, type: 3}
     wrongAnswerIndex2: 2
-    wrongAudioClip2: {fileID: 8300000, guid: cf18c0ab812f360438bb369b1af44d1b, type: 3}
-  - Question: Mana sandal yang cocok untuk kaki tersebut?
+    wrongAudioClip2: {fileID: 8300000, guid: e5345cf805f537745bef150d2b73e0fc, type: 3}
+    wrongAnswerIndex3: 0
+    wrongAudioClip3: {fileID: 8300000, guid: e5345cf805f537745bef150d2b73e0fc, type: 3}
+  - Question: Manakah sandal yang ukurannya sesuai dengan kaki tersebut?
     spriteQuestion: {fileID: 21300000, guid: d9c5de1f3cbdeac4b9862ba5ddc5de68, type: 3}
-    questionAudioClip: {fileID: 8300000, guid: 4661c9a85e60caf4fa307af1edebd84b, type: 3}
+    questionAudioClip: {fileID: 8300000, guid: 7a51d38245632ff44b435adf1f5a7bc3, type: 3}
     Answer:
     - {fileID: 21300000, guid: 50e3b0bb03df0a6489ff1e6c0b41e8e6, type: 3}
     - {fileID: 21300000, guid: 4562eb9a8089e4d47a56d84d0ed03595, type: 3}
     - {fileID: 21300000, guid: a4a78de43ebcdf945962038f37b870c8, type: 3}
     CorrectAnswer: 1
-    correctAudioClip: {fileID: 8300000, guid: e75332d74344b534d9ef252ddef160c7, type: 3}
+    correctAudioClip: {fileID: 8300000, guid: 016edef8ac662bd44a77b20fccf7c650, type: 3}
     wrongAnswerIndex1: 2
-    wrongAudioClip1: {fileID: 8300000, guid: a95dfe41b5034184eaf4df557e71f4e8, type: 3}
+    wrongAudioClip1: {fileID: 8300000, guid: e5345cf805f537745bef150d2b73e0fc, type: 3}
     wrongAnswerIndex2: 3
-    wrongAudioClip2: {fileID: 8300000, guid: a95dfe41b5034184eaf4df557e71f4e8, type: 3}
-  - Question: Mana sepatu yang cocok untuk kaki tersebut?
+    wrongAudioClip2: {fileID: 8300000, guid: e5345cf805f537745bef150d2b73e0fc, type: 3}
+    wrongAnswerIndex3: 0
+    wrongAudioClip3: {fileID: 8300000, guid: e5345cf805f537745bef150d2b73e0fc, type: 3}
+  - Question: Manakah sepatu yang ukurannya sesuai dengan kaki tersebut?
     spriteQuestion: {fileID: 21300000, guid: 5b72f97e744e2cd469c835d6ffd708a1, type: 3}
-    questionAudioClip: {fileID: 8300000, guid: 9b41e22fb8c3ca14eb4070f044a111b7, type: 3}
+    questionAudioClip: {fileID: 8300000, guid: 29fa35ef8ab2e834fa6e1a3e415db4d7, type: 3}
     Answer:
+    - {fileID: 21300000, guid: 8cfe776631261de40becfc27d870529e, type: 3}
     - {fileID: 21300000, guid: f4108e6e006898443abaa7ccaf7c67b8, type: 3}
-    - {fileID: 21300000, guid: f4108e6e006898443abaa7ccaf7c67b8, type: 3}
-    - {fileID: 21300000, guid: f4108e6e006898443abaa7ccaf7c67b8, type: 3}
+    - {fileID: 21300000, guid: 46b5a3b6fe9e2b5469961ca08d6988a4, type: 3}
     CorrectAnswer: 2
-    correctAudioClip: {fileID: 8300000, guid: fecf9c5bc413fe0448ce64caea42b569, type: 3}
+    correctAudioClip: {fileID: 8300000, guid: 016edef8ac662bd44a77b20fccf7c650, type: 3}
     wrongAnswerIndex1: 1
-    wrongAudioClip1: {fileID: 8300000, guid: c8392c470bbe4214e8f0aa9b28971704, type: 3}
+    wrongAudioClip1: {fileID: 8300000, guid: e5345cf805f537745bef150d2b73e0fc, type: 3}
     wrongAnswerIndex2: 3
-    wrongAudioClip2: {fileID: 8300000, guid: c8392c470bbe4214e8f0aa9b28971704, type: 3}
+    wrongAudioClip2: {fileID: 8300000, guid: e5345cf805f537745bef150d2b73e0fc, type: 3}
+    wrongAnswerIndex3: 0
+    wrongAudioClip3: {fileID: 8300000, guid: e5345cf805f537745bef150d2b73e0fc, type: 3}
   option:
   - {fileID: 1714410289}
   - {fileID: 1212240903}
@@ -1526,15 +1532,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.33333334}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 8a79a311bede62e4c91f6a73f9477e70, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -2692,7 +2698,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f5cda4f8e775eb0439ef93c355745ce5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b89381a155b13e14d8b06a5938984460, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2930,7 +2936,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 2.85, y: 109}
-  m_SizeDelta: {x: 150, y: 150}
+  m_SizeDelta: {x: 95, y: 110}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2127824863
 GameObject:

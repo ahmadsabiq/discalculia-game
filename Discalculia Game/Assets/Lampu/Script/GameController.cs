@@ -26,6 +26,7 @@ public class GameController : MonoBehaviour
     public Button buttonJawab;
 
     public AudioSource repeatSfx;
+    public AudioClip sfx;
 
     private int numAttempt = 0;
 
@@ -70,7 +71,10 @@ public class GameController : MonoBehaviour
                 lamp.TurnOff();
             }
         }
-        questionText.text = "Ayo nyalakan lampu sesuai urutan tadi ya!";
+        questionText.text = "Ayo nyalakan lampu sesuai urutan tadi!";
+        AudioSource audio = GetComponent<AudioSource>();
+        audio.clip = sfx;
+        audio.Play();
         buttonRepeat.interactable = true;
         buttonJawab.interactable = true;
         questionLampsRunning = false;
