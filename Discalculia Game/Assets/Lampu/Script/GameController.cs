@@ -32,7 +32,7 @@ public class GameController : MonoBehaviour
 
     private int numAttempt = 0;
 
-    private string nama = "User";
+    private string nama;
     private string tittle = "Lampu";
     public string level;
     public string question;
@@ -45,7 +45,9 @@ public class GameController : MonoBehaviour
 
     public void AddData()
     {
-            StartCoroutine(DatabaseManager.InsertData(nama,numAttempt, tittle, level, question));
+            nama = PlayerPrefs.GetString("name");
+            Debug.Log("Player name is: " + nama);
+            StartCoroutine(DatabaseManager.InsertData(nama, numAttempt, tittle, level, question));
     }
 
     private void ResetLamp()

@@ -14,7 +14,7 @@ public class DatabaseManager : MonoBehaviour
         form.AddField("tittle", tittle);
         form.AddField("level", level);
         form.AddField("question", question);
-        UnityWebRequest request = UnityWebRequest.Post("http://localhost:8080/unitytestdb/insertmodule.php", form);
+        UnityWebRequest request = UnityWebRequest.Post("https://calculico.site/api/post", form);
         yield return request.SendWebRequest();
         request.Dispose();
     }

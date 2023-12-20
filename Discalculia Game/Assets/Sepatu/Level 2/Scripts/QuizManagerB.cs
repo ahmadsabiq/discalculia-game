@@ -22,7 +22,7 @@ public class QuizManagerB : MonoBehaviour
 
     int totalQuestion = 0;
 
-    private string nama = "User";
+    private string nama;
     private string tittle = "Sepatu";
     public string level;
     public string question;
@@ -43,6 +43,8 @@ public class QuizManagerB : MonoBehaviour
 
     public void AddData()
     {
+        nama = PlayerPrefs.GetString("name");
+        Debug.Log("Player name is: " + nama);
         StartCoroutine(DatabaseManager.InsertData(nama, totalQuestion, tittle, level, question));
     }
 
