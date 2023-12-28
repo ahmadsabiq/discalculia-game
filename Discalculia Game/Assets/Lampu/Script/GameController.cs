@@ -27,6 +27,7 @@ public class GameController : MonoBehaviour
 
     public AudioSource repeatSfx;
     public AudioClip sfx;
+    public AudioClip sfx2;
 
     public AudioSource audioSound;
 
@@ -58,10 +59,25 @@ public class GameController : MonoBehaviour
         }
     }
 
+    public void SuaraPertama()
+    {
+        AudioSource audio = GetComponent<AudioSource>();
+        audio.clip = sfx;
+        audio.Play();
+    }
+
+    public void SuaraKedua()
+    {
+        AudioSource audio = GetComponent<AudioSource>();
+        audio.clip = sfx2;
+        audio.Play();
+    }
+
     private IEnumerator QuestionLamps()
     {
         questionLampsRunning = true;
         questionText.text = "Perhatikan urutan lampu yang menyala!";
+        SuaraPertama();
         buttonRepeat.interactable = false;
         buttonJawab.interactable = false;
         yield return new WaitForSeconds(2f);
@@ -76,9 +92,7 @@ public class GameController : MonoBehaviour
             }
         }
         questionText.text = "Ayo nyalakan lampu sesuai urutan tadi!";
-        AudioSource audio = GetComponent<AudioSource>();
-        audio.clip = sfx;
-        audio.Play();
+        SuaraKedua();
         buttonRepeat.interactable = true;
         buttonJawab.interactable = true;
         questionLampsRunning = false;
@@ -127,6 +141,14 @@ public class GameController : MonoBehaviour
         totalAtt();
     }
 
+    public void PauseSound()
+    {
+        AudioSource audio = GetComponent<AudioSource>();
+        audio.clip = sfx2;
+        audio.clip = sfx;
+        audio.Stop();
+    }
+
     public IEnumerator RepeatQuestion()
     {
         StopCoroutine(QuestionLamps());
@@ -136,8 +158,9 @@ public class GameController : MonoBehaviour
         {
             Switch.ButtonOff();
         }
-        repeatSfx.Play();   
-        yield return new WaitForSeconds(1f);    
+        repeatSfx.Play();
+        yield return new WaitForSeconds(2f);
+        PauseSound();
         Repeat();
     }
 
