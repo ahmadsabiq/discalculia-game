@@ -572,7 +572,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 74, y: -86}
+  m_AnchoredPosition: {x: 74, y: -98.99999}
   m_SizeDelta: {x: 100, y: 101.4072}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &867742738
@@ -1063,7 +1063,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000011444, y: 37.637012}
+  m_AnchoredPosition: {x: 0.000011444, y: 57.785}
   m_SizeDelta: {x: 315.675, y: 31.2708}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &965154801
@@ -1238,7 +1238,7 @@ MonoBehaviour:
     wrongAudioClip1: {fileID: 8300000, guid: e5345cf805f537745bef150d2b73e0fc, type: 3}
     wrongAnswerIndex2: 2
     wrongAudioClip2: {fileID: 8300000, guid: e5345cf805f537745bef150d2b73e0fc, type: 3}
-    wrongAnswerIndex3: 0
+    wrongAnswerIndex3: 4
     wrongAudioClip3: {fileID: 8300000, guid: e5345cf805f537745bef150d2b73e0fc, type: 3}
   - Question: Manakah sepatu yang ukurannya sesuai dengan kaki tersebut?
     spriteQuestion: {fileID: 21300000, guid: 8037d5a02374d384bbb8b291a1aac69b, type: 3}
@@ -1469,7 +1469,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -79, y: -98.296}
+  m_AnchoredPosition: {x: -79, y: -111.29599}
   m_SizeDelta: {x: 250, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1275739617
@@ -1619,7 +1619,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 231.99997, y: -98.296394}
+  m_AnchoredPosition: {x: 231.99997, y: -111.29639}
   m_SizeDelta: {x: 250, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1299339207
@@ -1845,7 +1845,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 181.94997, y: 29.700008}
+  m_AnchoredPosition: {x: 202, y: 51}
   m_SizeDelta: {x: 33, y: 34}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1515939314
@@ -1892,9 +1892,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 932350271}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-        m_MethodName: Play
+      - m_Target: {fileID: 1081207014}
+        m_TargetAssemblyTypeName: QuizManager2, Assembly-CSharp
+        m_MethodName: QuestionSound
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2770,7 +2770,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -230, y: -86}
+  m_AnchoredPosition: {x: -230, y: -99}
   m_SizeDelta: {x: 100, y: 101.4072}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1756259614
@@ -3164,7 +3164,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000007391, y: 121.92}
+  m_AnchoredPosition: {x: -0.000007391, y: 142}
   m_SizeDelta: {x: 110, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2127824863

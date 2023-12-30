@@ -2314,9 +2314,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 932350271}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-        m_MethodName: Play
+      - m_Target: {fileID: 1081207014}
+        m_TargetAssemblyTypeName: QuizManager2, Assembly-CSharp
+        m_MethodName: QuestionSound
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
